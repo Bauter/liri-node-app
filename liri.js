@@ -1,4 +1,7 @@
 require("dotenv").config();
+let moment = require("moment");
+
+//let date = moment().format("MMM Do YY");
 
 var keys = require("./keys.js");
 let matchedConcerts = [];
@@ -38,6 +41,9 @@ function concertThis() {
         artistInput.charAt(0).toUpperCase();
         
         axios.get("https://rest.bandsintown.com/artists/" + artistInput + "/events?app_id=codingbootcamp").then(function(response) {
+            console.log("Band: " + response.data[0].artist.name);
+            let date = moment(response.data[0].datetime).format("MMM Do YYYY")
+            console.log(date);
             console.log(response.data[0].venue);
 
             console.log(cityInput, 'this');
@@ -46,6 +52,7 @@ function concertThis() {
                 if(response.data[i].venue.city === cityInput){
                     matchedConcerts.push(response.data[i])
                 }
+                
             }
             console.log(matchedConcerts)
 
