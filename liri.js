@@ -14,6 +14,32 @@ let venueName;
 let showDate;
 let region;
 
+
+function start() {
+    inquirer.prompt([
+        {
+            type:"list",
+            name:"operation",
+            message:"please choose a function to run",
+            choices: ["concert-this", "spotify-this-song", "movie-this", "do-what-it-says"]
+    
+    }]).then(function(answer) {
+        if (answer.operation == "concert-this") {
+            concertThis();
+        } else if (answer.operation  == "spotify-this-song") {
+            //spotify-this-song function call
+        } else if (answer.operation  == "movie-this") {
+            //movie-this function call
+        } else if (answer.operation  == "do-what-it-says") {
+            //do-what-it-says function call
+        };
+    });
+};
+
+
+
+
+
 // ??? unsure if needed, came from HW instructions? ???
 
 // var spotify = new Spotify(keys.spotify);
@@ -61,7 +87,7 @@ function concertThis() {
          }
         }]
         ).then(function(response) {
-        
+        let run = true;
         let artistInput = response.artist;
         let cityInput = response.city;
         // cityInput.toUpperCase();
@@ -88,7 +114,7 @@ function concertThis() {
                     console.log("----------------------");
                     console.log("\n!!! MATCH FOUND !!!\n" + "\n" + bandName + "\nIs playing at: " + venueName + "\nIn: " + city + ", " + region + "\nOn: " + showDate + "\n" + "\n!!! MATCH FOUND !!!\n");
                     console.log("----------------------");
-
+                    
                 } else if(response.data[i].venue.city !== cityInput) {
                    
                     // IF NO CITY MATCHES FOUND log:
@@ -97,7 +123,14 @@ function concertThis() {
                 }; // END OF "if statement".
                 
             }; // END OF "for loop".
-            
+
+            console.log("\n" + "^ ^ ^ Review the returned data above ^ ^ ^" + "\n");
+            console.log("-----------------------------");
+            console.log("\n" + "when ready, proceed with next operation choice" + "\n");
+            console.log("-----------------------------");
+            if( run == true) {
+                start()
+            }
         }); // END OF "Axios" CALL.
 
     }).catch(function(error) {
@@ -112,4 +145,5 @@ function concertThis() {
 
 }; // END OF "concertThis" FUNCTION.
 
-concertThis();
+//concertThis();
+start();
