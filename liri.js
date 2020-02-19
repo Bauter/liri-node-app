@@ -7,6 +7,7 @@ var Spotify = require('node-spotify-api');
 let axios = require("axios");
 var keys = require("./keys.js");
 const inquirer = require("inquirer");
+var fs = require("fs");
 
 // Global Variables
 let bandName;
@@ -14,11 +15,55 @@ let city;
 let venueName;
 let showDate;
 let region;
+let commandInput = process.argv[2];
+let searchInput = process.argv.slice(3).join(" ");
 
-console.log("arguments to pass:\n 1.'concert-this' 2.'spotify-this-song' 3.'movie-this' 4.'do-what-it-says' 5.'command-list'\n");
+// Run function set up to run commands based on arguments (primarily to make 'do-what-it-says' function properly)
+function run(commandInput, searchInput) {
+    
+    switch (commandInput) {
+        case 'concert-this':
+            concertThisCommand(searchInput);
+            break;
+        case 'spotify-this-song':
+            spotifyThisCommand(searchInput);
+            break;
+        case 'movie-this':
+            movieThisCommand(searchInput);
+            break;
+        case 'do-what-it-says':
+            doThisCommand();
+            break;
+        case 'command-list':
+            start();
+            break;
+        default:
+            // Argument options displayed every time 'liri.js' is run w/o commands
+            console.log("please input a command\n");
+            console.log("example: node liri.js <argument-1(command)> <argument-2>\n");
+            console.log("commands:\n 1.'concert-this' + <band name>\n 2.'spotify-this-song' + <song name>\n 3.'movie-this' + <movie-name>\n 4.'do-what-it-says'\n 5.'command-list'\n");
+            console.log("\n try command list for a user friendly experience");
+    }
+};
+
+// Call 'run()' command with two variables as arguments to input process.argv[2] and process.argv[3].
+run(commandInput, searchInput);
+
+// Append user input to log.txt
+let argOne = process.argv[2];
+let argTwo = process.argv.slice(3).join(" ");
+let input = "\n" + argOne + ", " + argTwo;
+if (argOne === undefined) {
+    input = "\nno-commands-entered-to-log";
+}
+fs.appendFile('log.txt', input, (err) => {
+    if (err) throw err;
+    console.log('\nlogged');
+  });
 
 
-// Start function, runs when node runs the "liri.js" file and gives user choice of operation to run.
+
+// Start function runs when 'command-list' command is passed as process.argv[2]. to provide a more user guided experience.
 function start() {
     // Inquirer NPM - Prompt questions to user.
     inquirer.prompt([
@@ -26,23 +71,25 @@ function start() {
             type:"list",
             name:"operation",
             message:"Please choose a function to run",
-            choices: ["concert-this", "spotify-this-song", "movie-this", "do-what-it-says"]
+            choices: ["concert-this", "spotify-this-song", "movie-this", "do-what-it-says", "exit"]
     
     }]).then(function(answer) {
         if (answer.operation == "concert-this") {
             concertThis();
-        } else if (answer.operation  == "spotify-this-song") {
+        } else if (answer.operation == "spotify-this-song") {
             spotifyThis();
-        } else if (answer.operation  == "movie-this") {
+        } else if (answer.operation == "movie-this") {
             movieThis();
-        } else if (answer.operation  == "do-what-it-says") {
+        } else if (answer.operation == "do-what-it-says") {
             doThis();
+        } else if (answer.operation == "exit") {
+            console.log("OK, see you later!")
         };
     });
 };
 
 
-// ConcertThis function to take user artist and city input via inquirer, search "bands-in-town" API via Axios, and log results
+// Prompted inquirer function for 'concert-this' via 'command-list' command.
 function concertThis() {
 
     // Inquirer NPM - Prompt questions to user.
@@ -136,7 +183,7 @@ function concertThis() {
 
 
 
-
+// Prompted inquirer function for 'spotify-this-song' via 'command-list' command.
 function spotifyThis() {
     
     console.log("\nLets search Spotify for a song...\n")
@@ -235,7 +282,7 @@ function spotifyThis() {
 
 }; // END OF "spotifyThis" FUNCTION.
 
-
+// Prompted inquirer function for 'movie-this' via 'command-list' command.
 function movieThis() {
 
     // Inquirer NPM - Prompt questions to user.
@@ -343,16 +390,17 @@ function movieThis() {
 
 }; // END OF "movieThis" FUNCTION.
 
+// Prompted inquirer function for 'do-what-it-says' via 'command-list' command.
 function doThis() {
-
+    doThisCommand();
 
 }; // END OF "doThis" FUNCTION.
 
-/* IF RUNNING "node liri.js" with arguments */
+/* IF RUNNING "node liri.js" with arguments use THESE command functions with run() switch statements*/
 
-if (process.argv[2] == "concert-this") {
+function concertThisCommand(searchInput) {
 
-    let artistInput = process.argv[3];
+    let artistInput = searchInput;
 
     axios.get("https://rest.bandsintown.com/artists/" + artistInput + "/events?app_id=codingbootcamp").then(function(response) {
        
@@ -371,9 +419,11 @@ if (process.argv[2] == "concert-this") {
         }; // END OF "for loop".
     });
 
-} else if (process.argv[2] == "spotify-this-song") {
+}; // END OF 'concertThisCommand' FUNCTION
 
-    let songInput = process.argv[3];
+function spotifyThisCommand(searchInput) {
+
+    let songInput = searchInput;
     var spotify = new Spotify(keys.spotify);
 
         // Node-spotify-api search.
@@ -425,9 +475,11 @@ if (process.argv[2] == "concert-this") {
             console.log(err);
         }); // END OF "then" & "catch" Spotify.search PROMISE.
 
-} else if (process.argv[2] == "movie-this") {
+}; // END OF 'spotifyThisCommand' FUNCTION
 
-    let movieInput = process.argv[3];
+ function movieThisCommand(searchInput) {
+    
+    let movieInput = searchInput;
 
         axios.get("http://www.omdbapi.com/?t=" + movieInput + "&y=&plot=short&apikey=trilogy").then(function(response) {
 
@@ -489,8 +541,21 @@ if (process.argv[2] == "concert-this") {
 
         });
 
-} else if (process.argv[2] == "do-what-it-says") {
+}  // END OF 'movieThisCommand' FUNCTION 
 
-} else if (process.argv[2] == "command-list") {
-    start()
-};
+function doThisCommand() {
+    fs.readFile('random.txt', 'utf-8', (err,data) => {
+        if(err) {
+           console.log(err)
+        } else {
+            let randomData = data.split(",");
+            run(randomData[0], randomData[1])
+        
+        }
+       
+    });
+
+    
+
+}; // END OF 'doThisCommand' FUNCTION
+ 
