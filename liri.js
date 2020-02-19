@@ -29,7 +29,7 @@ function start() {
         } else if (answer.operation  == "spotify-this-song") {
             spotifyThis();
         } else if (answer.operation  == "movie-this") {
-            //movie-this function call
+            movieThis();
         } else if (answer.operation  == "do-what-it-says") {
             //do-what-it-says function call
         };
@@ -151,9 +151,9 @@ function spotifyThis() {
                }
             }
         }
-    ]).then(function(search) {
+    ]).then(function(songSearch) {
 
-        let songInput = search.song;
+        let songInput = songSearch.song;
         var spotify = new Spotify(keys.spotify);
 
         // Node-spotify-api search.
@@ -165,6 +165,8 @@ function spotifyThis() {
         ).then(function(response) {
            
             if (songInput = undefined) {
+
+                // Default spotify search
                 spotify.search(
                     {
                         type: 'track',
@@ -217,28 +219,121 @@ function spotifyThis() {
                     start();
 
                 };
-            };
+            }; // END OF CONDITIONAL IF STATEMENT for songInput defined/undefined.
            
         })
         .catch(function(err) {
             console.log(err);
-        });
-    });
+        }); // END OF "then" & "catch" Spotify.search PROMISE.
+
+    }); // END OF "then" Inquirer PROMISE.
+
+}; // END OF "spotifyThis" FUNCTION.
 
 
+function movieThis() {
 
+    // Inquirer NPM - Prompt questions to user.
+    inquirer.prompt([
+        { 
+            type:"input",
+            name:"movie",
+            message:"What movie would you like to search for?",
+            // User validation function
+            validate: function(value) {
+               if (value == "") {
+                   return "Please enter a movie name"
+               } else {
+                   return true
+               }
+            }
+        }
+    ]).then(function(movieSearch){
 
+        let movieInput = movieSearch.movie
 
+        axios.get("http://www.omdbapi.com/?t=" + movieInput + "&y=&plot=short&apikey=trilogy").then(function(response) {
 
+            if (response.data.Title == undefined) {
 
+                let movieInput = "Mr. Nobody";
+            
+                axios.get("http://www.omdbapi.com/?t=" + movieInput + "&y=&plot=short&apikey=trilogy").then(function(response) {
 
+                    run = true;
 
+                    console.log("\nSorry, we couldn't find that movie, so we searched this one instead. Check it out!\n")
 
+                    console.log("\n-----------------------------");
+                    console.log("\nMovie: " + response.data.Title); // Movie title.
+                    console.log("\nRelease date: " + response.data.Released); // Release date.
+                    console.log("\nIMDB-rating: " + response.data.imdbRating); //Movie imdb rating.
+                    console.log("\n" + response.data.Ratings[1].Source + " rating: " + response.data.Ratings[1].Value); // Rotten Tomatoes rating.
+                    console.log("\nCountry produced in: " + response.data.Country); // Country where the movie was produced.
+                    console.log("\nLanguage: " + response.data.Language); // Language of the movie.
+                    console.log("\nPlot: " + response.data.Plot); // Plot of the movie.
+                    console.log("\nActors: " + response.data.Actors); // Actors in the movie.
+                    console.log("\n-----------------------------");
 
+                    if(run == true) {
 
+                        console.log("\n" + "^ ^ ^ Review the returned data above ^ ^ ^" + "\n");
+                        console.log("-----------------------------");
+                        console.log("\n" + "When ready, proceed with next operation choice" + "\n");
+                        console.log("-----------------------------\n");
+        
+                       start();
+                    };
 
+                }).catch(function(error) {
+                    if (error.response) {
+                        console.log("error #1: " + error.response);
+                    } else if (error.request) {
+                        console.log("error #2: " + error.request);
+                    } else if (error.message) {
+                        console.log("error #3: " + error.message);
+                    };
+        
+                }); // END OF "then" & "catch" Axios PROMISE for DEFAULT movie search.
 
+            } else {
+                run = true;
 
+                console.log("\n-----------------------------");
+                console.log("\nMovie: " + response.data.Title); // Movie title.
+                console.log("\nRelease date: " + response.data.Released); // Release date.
+                console.log("\nIMDB-rating: " + response.data.imdbRating); //Movie imdb rating.
+                console.log("\n" + response.data.Ratings[1].Source + " rating: " + response.data.Ratings[1].Value); // Rotten Tomatoes rating.
+                console.log("\nCountry produced in: " + response.data.Country); // Country where the movie was produced.
+                console.log("\nLanguage: " + response.data.Language); // Language of the movie.
+                console.log("\nPlot: " + response.data.Plot); // Plot of the movie.
+                console.log("\nActors: " + response.data.Actors); // Actors in the movie.
+                console.log("\n-----------------------------");
 
+                if(run == true) {
 
-}
+                    console.log("\n" + "^ ^ ^ Review the returned data above ^ ^ ^" + "\n");
+                    console.log("-----------------------------");
+                    console.log("\n" + "When ready, proceed with next operation choice" + "\n");
+                    console.log("-----------------------------\n");
+    
+                   start();
+                };
+
+            }; // END OF CONDITIONAL IF STATEMENT for "response.data.Title" defined/undefined.
+                
+
+        }).catch(function(error) {
+            if (error.response) {
+                console.log("error #1: " + error.response);
+            } else if (error.request) {
+                console.log("error #2: " + error.request);
+            } else if (error.message) {
+                console.log("error #3: " + error.message);
+            };
+
+        }); // END OF "then" & "catch" Axios PROMISE.
+
+    }); // END OF "then" Inquirer PROMISE.
+
+}; // END OF "movieThis" FUNCTION.
