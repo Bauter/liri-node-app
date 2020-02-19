@@ -38,3 +38,61 @@ command-list,
 command-list, 
 command-list, 
 command-list, 
+no-commands-entered-to-log
+command-list, 
+concert-this, Insomnium
+spotify-this-song, fade to black
+movie-this, The matrix
+do-what-it-says, 
+concert-this, Insomnium
+concert-this, Insomnium
+concert-this, Insomnium
+concert-this, Insomnium
+concert-this, Insomnium
+movie-this, 
+movie-this, 
+movie-this, 
+movie-this, 
+movie-this, 
+movie-this, 
+movie-this, 
+movie-this, 
+movie-this, 
+movie-this, 
+movie-this, 
+movie-this, Mr.Nobody
+movie-this, Mr.Nobody
+movie-this, 
+movie-this, 
+movie-this, 
+movie-this, 
+movie-this, the matrix
+movie-this, 
+movie-this, the matrix
+movie-this, the matrix
+movie-this, 
+movie-this, the matrix
+movie-this, 
+movie-this, 
+movie-this, 
+movie-this, 
+movie-this, 
+movie-this, 
+movie-this, 
+movie-this, 
+movie-this, 
+movie-this, 
+movie-this, 
+movie-this, 
+movie-this, 
+movie-this, 
+movie-this, 
+movie-this, 
+movie-this, 
+movie-this, 
+movie-this, 
+movie-this, 
+movie-this, 
+movie-this, 
+movie-this, 
+movie-this, the matrix

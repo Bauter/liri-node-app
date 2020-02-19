@@ -58,7 +58,7 @@ if (argOne === undefined) {
 }
 fs.appendFile('log.txt', input, (err) => {
     if (err) throw err;
-    console.log('\nlogged');
+    console.log('\nlogged\n');
   });
 
 
@@ -115,8 +115,7 @@ function concertThis() {
          validate: function(value) {
             if (value == "") {
                 return "Please enter a city"
-            // } else if (value.charAt(0) = "a" ||"b"|| "c"|| "d"|| "e"|| "f"|| "g"|| "h"|| "i"|| "j"|| "k"|| "l"|| "m"|| "n"|| "o"|| "p"|| "q"|| "r"|| "s"|| "t"|| "u"|| "v"|| "w"|| "x"|| "y"|| "z") {
-            //     return "Please capitalize the first letter in city name"
+
             } else {
                 return true
             }
@@ -126,8 +125,6 @@ function concertThis() {
         let run = true;
         let artistInput = response.artist;
         let cityInput = response.city;
-        // cityInput.toUpperCase();
-        // artistInput.toUpperCase(); // trouble with city name not having first letter capitalized.... needs work
 
         console.log("RESULTS: ")
 
@@ -404,6 +401,8 @@ function concertThisCommand(searchInput) {
 
     axios.get("https://rest.bandsintown.com/artists/" + artistInput + "/events?app_id=codingbootcamp").then(function(response) {
        
+        console.log("RESULTS: \n");
+
         for(let i = 0; i < response.data.length; i++){
 
             bandName = response.data[0].artist.name;
@@ -412,11 +411,18 @@ function concertThisCommand(searchInput) {
             city = response.data[i].venue.city;
             region = response.data[i].venue.region
                 
-            console.log(bandName + " Upcoming shows: " + showDate + " In the city of: " + city + ", " + region + " at: " + venueName + "\n");
+            console.log("-----------------------------\n");
+            console.log(" " + bandName + "\n  upcoming show # " + [i] + ":\n  " + showDate + " \n  In the city of: " + city + ", " + region + " \n  at: " + venueName + "\n");
 
             
             
         }; // END OF "for loop".
+
+        console.log("-----------------------------");
+        console.log("\n" + "^ ^ ^ Review the returned data above ^ ^ ^" + "\n");
+        console.log("-----------------------------");
+
+
     });
 
 }; // END OF 'concertThisCommand' FUNCTION
@@ -478,45 +484,20 @@ function spotifyThisCommand(searchInput) {
 }; // END OF 'spotifyThisCommand' FUNCTION
 
  function movieThisCommand(searchInput) {
-    
+    let queryURL;
     let movieInput = searchInput;
 
-        axios.get("http://www.omdbapi.com/?t=" + movieInput + "&y=&plot=short&apikey=trilogy").then(function(response) {
+    // If searchInput is undefined, pull 'Mr. Nobody' OMDB data
+    if (!searchInput) {
+         queryURL = "http://www.omdbapi.com/?t=Mr.+Nobody&y=&plot=short&apikey=trilogy"
+    } else {
+        queryURL = "http://www.omdbapi.com/?t=" + movieInput + "&y=&plot=short&apikey=trilogy"
+        console.log(movieInput);
+    };
 
-            if (response.data.Title == undefined) {
+        console.log(queryURL)
+        axios.get(queryURL).then(function(response) {
 
-                let movieInput = "Mr. Nobody";
-            
-                axios.get("http://www.omdbapi.com/?t=" + movieInput + "&y=&plot=short&apikey=trilogy").then(function(response) {
-
-                    
-
-                    console.log("\nSorry, we couldn't find that movie, so we searched this one instead. Check it out!\n")
-
-                    console.log("\n-----------------------------");
-                    console.log("\nMovie: " + response.data.Title); // Movie title.
-                    console.log("\nRelease date: " + response.data.Released); // Release date.
-                    console.log("\nIMDB-rating: " + response.data.imdbRating); //Movie imdb rating.
-                    console.log("\n" + response.data.Ratings[1].Source + " rating: " + response.data.Ratings[1].Value); // Rotten Tomatoes rating.
-                    console.log("\nCountry produced in: " + response.data.Country); // Country where the movie was produced.
-                    console.log("\nLanguage: " + response.data.Language); // Language of the movie.
-                    console.log("\nPlot: " + response.data.Plot); // Plot of the movie.
-                    console.log("\nActors: " + response.data.Actors); // Actors in the movie.
-                    console.log("\n-----------------------------");
-
-                }).catch(function(error) {
-                    if (error.response) {
-                        console.log("error #1: " + error.response);
-                    } else if (error.request) {
-                        console.log("error #2: " + error.request);
-                    } else if (error.message) {
-                        console.log("error #3: " + error.message);
-                    };
-        
-                }); // END OF "then" & "catch" Axios PROMISE for DEFAULT movie search.
-
-            } else {
-               
                 console.log("\n-----------------------------");
                 console.log("\nMovie: " + response.data.Title); // Movie title.
                 console.log("\nRelease date: " + response.data.Released); // Release date.
@@ -528,8 +509,6 @@ function spotifyThisCommand(searchInput) {
                 console.log("\nActors: " + response.data.Actors); // Actors in the movie.
                 console.log("\n-----------------------------");
 
-            }; // END OF CONDITIONAL IF STATEMENT for "response.data.Title" defined/undefined.
-                
         }).catch(function(error) {
             if (error.response) {
                 console.log("error #1: " + error.response);
@@ -540,7 +519,7 @@ function spotifyThisCommand(searchInput) {
             };
 
         });
-
+    
 }  // END OF 'movieThisCommand' FUNCTION 
 
 function doThisCommand() {
