@@ -7,27 +7,27 @@ var keys = require("./keys.js");
 const inquirer = require("inquirer");
 
 // Global Variables
-let matchedConcerts = [];
 let bandName;
 let city;
 let venueName;
 let showDate;
 let region;
 
-
+// Start function, runs when node runs the "liri.js" file and gives user choice of operation to run.
 function start() {
+    // Inquirer NPM - Prompt questions to user.
     inquirer.prompt([
         {
             type:"list",
             name:"operation",
-            message:"please choose a function to run",
+            message:"Please choose a function to run",
             choices: ["concert-this", "spotify-this-song", "movie-this", "do-what-it-says"]
     
     }]).then(function(answer) {
         if (answer.operation == "concert-this") {
             concertThis();
         } else if (answer.operation  == "spotify-this-song") {
-            //spotify-this-song function call
+            spotifyThis();
         } else if (answer.operation  == "movie-this") {
             //movie-this function call
         } else if (answer.operation  == "do-what-it-says") {
@@ -35,22 +35,6 @@ function start() {
         };
     });
 };
-
-
-
-
-
-// ??? unsure if needed, came from HW instructions? ???
-
-// var spotify = new Spotify(keys.spotify);
-// spotify
-// .search({ type: 'track', query: 'All the Small Things' })
-// .then(function(response) {
-//     console.log(response.);
-// })
-// .catch(function(err) {
-//     console.log(err);
-// });
 
 
 // ConcertThis function to take user artist and city input via inquirer, search "bands-in-town" API via Axios, and log results
@@ -86,7 +70,7 @@ function concertThis() {
             }
          }
         }]
-        ).then(function(response) {
+    ).then(function(response) {
         let run = true;
         let artistInput = response.artist;
         let cityInput = response.city;
@@ -118,7 +102,7 @@ function concertThis() {
                 } else if(response.data[i].venue.city !== cityInput) {
                    
                     // IF NO CITY MATCHES FOUND log:
-                    console.log(bandName + " Upcoming shows: " + showDate + " In the city of: " + city + " at: " + venueName);
+                    console.log(bandName + " Upcoming shows: " + showDate + " In the city of: " + city + " at: " + venueName + "\n");
 
                 }; // END OF "if statement".
                 
@@ -127,7 +111,7 @@ function concertThis() {
             console.log("\n" + "^ ^ ^ Review the returned data above ^ ^ ^" + "\n");
             console.log("-----------------------------");
             console.log("\n" + "when ready, proceed with next operation choice" + "\n");
-            console.log("-----------------------------");
+            console.log("-----------------------------\n");
             if( run == true) {
                 start()
             }
@@ -147,3 +131,114 @@ function concertThis() {
 
 //concertThis();
 start();
+
+function spotifyThis() {
+    
+    console.log("\nLets search Spotify for a song...\n")
+
+    // Inquirer NPM - Prompt questions to user.
+    inquirer.prompt([
+        { 
+            type:"input",
+            name:"song",
+            message:"What song would you like to search for?",
+            // User validation function
+            validate: function(value) {
+               if (value == "") {
+                   return "Please enter a song name"
+               } else {
+                   return true
+               }
+            }
+        }
+    ]).then(function(search) {
+
+        let songInput = search.song;
+        var spotify = new Spotify(keys.spotify);
+
+        // Node-spotify-api search.
+        spotify.search(
+            {
+                 type: 'track', 
+                 query: songInput 
+            }
+        ).then(function(response) {
+           
+            if (songInput = undefined) {
+                spotify.search(
+                    {
+                        type: 'track',
+                        query: "The Sign"
+                    }
+                ).then(function(defaultResponse){
+
+                    run = true;
+
+                    console.log("--------------------------------------\n");
+                    console.log("Artist: " + defaultResponse.tracks.items[0].artists[0].name + "\n"); // artist name
+                    console.log("Song: " + defaultResponse.tracks.items[0].name + "\n"); //song name
+                    console.log("Album: " + defaultResponse.tracks.items[0].album.name + "\n"); // album name
+                    console.log("Preview URL: " + defaultResponse.tracks.items[0].preview_url + "\n"); //preview url
+                    console.log("--------------------------------------\n");
+
+                    if(run == true) {
+
+                        console.log("\n" + "^ ^ ^ Review the returned data above ^ ^ ^" + "\n");
+                        console.log("-----------------------------");
+                        console.log("\n" + "When ready, proceed with next operation choice" + "\n");
+                        console.log("-----------------------------\n");
+        
+                       start();
+                    };
+                });
+
+            } else {
+
+                let run = true;
+
+                console.log("\nHere's a list of Artists on spotify that match your search. \n");
+
+                for(let i = 0; i < response.tracks.items.length; i++) {
+                    console.log("------------- Match: "+[i]+" --------------\n");
+                    console.log("Artist: " + response.tracks.items[i].artists[0].name + "\n"); // artist name
+                    console.log("Song: " + response.tracks.items[i].name + "\n"); //song name
+                    console.log("Album: " + response.tracks.items[i].album.name + "\n"); // album name
+                    console.log("Preview URL: " + response.tracks.items[i].preview_url + "\n"); //preview url
+                    console.log("--------------------------------------\n\n");
+                };
+
+                if (run == true) {
+
+                    console.log("\n" + "^ ^ ^ Review the returned data above ^ ^ ^" + "\n");
+                    console.log("-----------------------------");
+                    console.log("\n" + "When ready, proceed with next operation choice" + "\n");
+                    console.log("-----------------------------\n");
+
+                    start();
+
+                };
+            };
+           
+        })
+        .catch(function(err) {
+            console.log(err);
+        });
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
