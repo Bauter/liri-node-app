@@ -1,3 +1,5 @@
+
+
 // Required NPM packages
 require("dotenv").config();
 let moment = require("moment");
@@ -12,6 +14,9 @@ let city;
 let venueName;
 let showDate;
 let region;
+
+console.log("arguments to pass:\n 1.'concert-this' 2.'spotify-this-song' 3.'movie-this' 4.'do-what-it-says' 5.'command-list'\n");
+
 
 // Start function, runs when node runs the "liri.js" file and gives user choice of operation to run.
 function start() {
@@ -31,7 +36,7 @@ function start() {
         } else if (answer.operation  == "movie-this") {
             movieThis();
         } else if (answer.operation  == "do-what-it-says") {
-            //do-what-it-says function call
+            doThis();
         };
     });
 };
@@ -129,8 +134,8 @@ function concertThis() {
 
 }; // END OF "concertThis" FUNCTION.
 
-//concertThis();
-start();
+
+
 
 function spotifyThis() {
     
@@ -337,3 +342,155 @@ function movieThis() {
     }); // END OF "then" Inquirer PROMISE.
 
 }; // END OF "movieThis" FUNCTION.
+
+function doThis() {
+
+
+}; // END OF "doThis" FUNCTION.
+
+/* IF RUNNING "node liri.js" with arguments */
+
+if (process.argv[2] == "concert-this") {
+
+    let artistInput = process.argv[3];
+
+    axios.get("https://rest.bandsintown.com/artists/" + artistInput + "/events?app_id=codingbootcamp").then(function(response) {
+       
+        for(let i = 0; i < response.data.length; i++){
+
+            bandName = response.data[0].artist.name;
+            showDate = moment(response.data[i].datetime).format("MMM Do YYYY");
+            venueName = response.data[i].venue.name;
+            city = response.data[i].venue.city;
+            region = response.data[i].venue.region
+                
+            console.log(bandName + " Upcoming shows: " + showDate + " In the city of: " + city + ", " + region + " at: " + venueName + "\n");
+
+            
+            
+        }; // END OF "for loop".
+    });
+
+} else if (process.argv[2] == "spotify-this-song") {
+
+    let songInput = process.argv[3];
+    var spotify = new Spotify(keys.spotify);
+
+        // Node-spotify-api search.
+        spotify.search(
+            {
+                 type: 'track', 
+                 query: songInput 
+            }
+        ).then(function(response) {
+           
+            if (songInput = undefined) {
+
+                // Default spotify search
+                spotify.search(
+                    {
+                        type: 'track',
+                        query: "The Sign"
+                    }
+                ).then(function(defaultResponse){
+
+                    run = true;
+
+                    console.log("--------------------------------------\n");
+                    console.log("Artist: " + defaultResponse.tracks.items[0].artists[0].name + "\n"); // artist name
+                    console.log("Song: " + defaultResponse.tracks.items[0].name + "\n"); //song name
+                    console.log("Album: " + defaultResponse.tracks.items[0].album.name + "\n"); // album name
+                    console.log("Preview URL: " + defaultResponse.tracks.items[0].preview_url + "\n"); //preview url
+                    console.log("--------------------------------------\n");
+ 
+                });
+
+            } else {
+
+                console.log("\nHere's a list of Artists on spotify that match your search. \n");
+
+                for(let i = 0; i < response.tracks.items.length; i++) {
+                    console.log("------------- Match: "+[i]+" --------------\n");
+                    console.log("Artist: " + response.tracks.items[i].artists[0].name + "\n"); // artist name
+                    console.log("Song: " + response.tracks.items[i].name + "\n"); //song name
+                    console.log("Album: " + response.tracks.items[i].album.name + "\n"); // album name
+                    console.log("Preview URL: " + response.tracks.items[i].preview_url + "\n"); //preview url
+                    console.log("--------------------------------------\n\n");
+                };
+
+            }; // END OF CONDITIONAL IF STATEMENT for songInput defined/undefined.
+           
+        })
+        .catch(function(err) {
+            console.log(err);
+        }); // END OF "then" & "catch" Spotify.search PROMISE.
+
+} else if (process.argv[2] == "movie-this") {
+
+    let movieInput = process.argv[3];
+
+        axios.get("http://www.omdbapi.com/?t=" + movieInput + "&y=&plot=short&apikey=trilogy").then(function(response) {
+
+            if (response.data.Title == undefined) {
+
+                let movieInput = "Mr. Nobody";
+            
+                axios.get("http://www.omdbapi.com/?t=" + movieInput + "&y=&plot=short&apikey=trilogy").then(function(response) {
+
+                    
+
+                    console.log("\nSorry, we couldn't find that movie, so we searched this one instead. Check it out!\n")
+
+                    console.log("\n-----------------------------");
+                    console.log("\nMovie: " + response.data.Title); // Movie title.
+                    console.log("\nRelease date: " + response.data.Released); // Release date.
+                    console.log("\nIMDB-rating: " + response.data.imdbRating); //Movie imdb rating.
+                    console.log("\n" + response.data.Ratings[1].Source + " rating: " + response.data.Ratings[1].Value); // Rotten Tomatoes rating.
+                    console.log("\nCountry produced in: " + response.data.Country); // Country where the movie was produced.
+                    console.log("\nLanguage: " + response.data.Language); // Language of the movie.
+                    console.log("\nPlot: " + response.data.Plot); // Plot of the movie.
+                    console.log("\nActors: " + response.data.Actors); // Actors in the movie.
+                    console.log("\n-----------------------------");
+
+                }).catch(function(error) {
+                    if (error.response) {
+                        console.log("error #1: " + error.response);
+                    } else if (error.request) {
+                        console.log("error #2: " + error.request);
+                    } else if (error.message) {
+                        console.log("error #3: " + error.message);
+                    };
+        
+                }); // END OF "then" & "catch" Axios PROMISE for DEFAULT movie search.
+
+            } else {
+               
+                console.log("\n-----------------------------");
+                console.log("\nMovie: " + response.data.Title); // Movie title.
+                console.log("\nRelease date: " + response.data.Released); // Release date.
+                console.log("\nIMDB-rating: " + response.data.imdbRating); //Movie imdb rating.
+                console.log("\n" + response.data.Ratings[1].Source + " rating: " + response.data.Ratings[1].Value); // Rotten Tomatoes rating.
+                console.log("\nCountry produced in: " + response.data.Country); // Country where the movie was produced.
+                console.log("\nLanguage: " + response.data.Language); // Language of the movie.
+                console.log("\nPlot: " + response.data.Plot); // Plot of the movie.
+                console.log("\nActors: " + response.data.Actors); // Actors in the movie.
+                console.log("\n-----------------------------");
+
+            }; // END OF CONDITIONAL IF STATEMENT for "response.data.Title" defined/undefined.
+                
+        }).catch(function(error) {
+            if (error.response) {
+                console.log("error #1: " + error.response);
+            } else if (error.request) {
+                console.log("error #2: " + error.request);
+            } else if (error.message) {
+                console.log("error #3: " + error.message);
+            };
+
+        });
+
+} else if (process.argv[2] == "do-what-it-says") {
+
+} else if (process.argv[2] == "command-list") {
+    start()
+};
