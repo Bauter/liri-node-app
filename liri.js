@@ -56,7 +56,7 @@ let input = "\n" + argOne + ", " + argTwo;
 if (argOne === undefined) {
     input = "\nno-commands-entered-to-log";
 }
-fs.appendFile('log.txt', input, (err) => {
+fs.appendFile('log.txt', "\n-INPUT-\n" + input, (err) => {
     if (err) throw err;
     console.log('\nlogged\n');
   });
@@ -83,7 +83,7 @@ function start() {
         } else if (answer.operation == "do-what-it-says") {
             doThis();
         } else if (answer.operation == "exit") {
-            console.log("OK, see you later!")
+            console.log("\nOK, see you later!")
         };
     });
 };
@@ -144,14 +144,50 @@ function concertThis() {
                 if(response.data[i].venue.city === cityInput){
                     
                     // IF CITY MATCH FOUND log:
-                    console.log("----------------------");
-                    console.log("\n!!! MATCH FOUND !!!\n" + "\n" + bandName + "\nIs playing at: " + venueName + "\nIn: " + city + ", " + region + "\nOn: " + showDate + "\n" + "\n!!! MATCH FOUND !!!\n");
-                    console.log("----------------------");
+
+                    // console.log("----------------------");
+                    // console.log("\n!!! MATCH FOUND !!!\n" + "\n" + bandName + "\nIs playing at: " + venueName + "\nIn: " + city + ", " + region + "\nOn: " + showDate + "\n" + "\n!!! MATCH FOUND !!!\n");
+                    // console.log("----------------------");
                     
+                    let matchedBandData = [
+                        "-----------------------------\n",
+                        "!!! MATCH FOUND !!!\n",
+                        "Band: " + bandName,
+                        "Upcoming show " + "#" + [i] + ": " + showDate,
+                        "In the city of: " + city + ", " + region,
+                        "At: " + venueName,
+                        "-----------------------------\n"
+                    ].join("\n\n")
+        
+                    console.log(matchedBandData);
+        
+                        fs.appendFile('log.txt', "\n\n-OUTPUT- \n" + matchedBandData, (err) => {
+                            if (err) throw err;
+                                
+                        }); 
+
+
                 } else if(response.data[i].venue.city !== cityInput) {
                    
-                    // IF NO CITY MATCHES FOUND log:
-                    console.log(bandName + " Upcoming shows: " + showDate + " In the city of: " + city + " at: " + venueName + "\n");
+                     // IF NO CITY MATCHES FOUND log:
+
+                    // console.log(bandName + " Upcoming shows: " + showDate + " In the city of: " + city + " at: " + venueName + "\n");
+
+                    let bandData = [
+                        "-----------------------------\n",
+                        "Band: " + bandName,
+                        "Upcoming show " + "#" + [i] + ": " + showDate,
+                        "In the city of: " + city + ", " + region,
+                        "At: " + venueName,
+                        "-----------------------------\n"
+                    ].join("\n\n")
+        
+                    console.log(bandData);
+        
+                        fs.appendFile('log.txt', "\n\n-OUTPUT- \n" + bandData, (err) => {
+                            if (err) throw err;
+                                
+                        }); 
 
                 }; // END OF "if statement".
                 
@@ -213,49 +249,36 @@ function spotifyThis() {
             }
         ).then(function(response) {
            
-            if (songInput = undefined) {
-
-                // Default spotify search
-                spotify.search(
-                    {
-                        type: 'track',
-                        query: "The Sign"
-                    }
-                ).then(function(defaultResponse){
-
-                    run = true;
-
-                    console.log("--------------------------------------\n");
-                    console.log("Artist: " + defaultResponse.tracks.items[0].artists[0].name + "\n"); // artist name
-                    console.log("Song: " + defaultResponse.tracks.items[0].name + "\n"); //song name
-                    console.log("Album: " + defaultResponse.tracks.items[0].album.name + "\n"); // album name
-                    console.log("Preview URL: " + defaultResponse.tracks.items[0].preview_url + "\n"); //preview url
-                    console.log("--------------------------------------\n");
-
-                    if(run == true) {
-
-                        console.log("\n" + "^ ^ ^ Review the returned data above ^ ^ ^" + "\n");
-                        console.log("-----------------------------");
-                        console.log("\n" + "When ready, proceed with next operation choice" + "\n");
-                        console.log("-----------------------------\n");
-        
-                       start();
-                    };
-                });
-
-            } else {
+            
 
                 let run = true;
 
                 console.log("\nHere's a list of Artists on spotify that match your search. \n");
 
                 for(let i = 0; i < response.tracks.items.length; i++) {
-                    console.log("------------- Match: "+[i]+" --------------\n");
-                    console.log("Artist: " + response.tracks.items[i].artists[0].name + "\n"); // artist name
-                    console.log("Song: " + response.tracks.items[i].name + "\n"); //song name
-                    console.log("Album: " + response.tracks.items[i].album.name + "\n"); // album name
-                    console.log("Preview URL: " + response.tracks.items[i].preview_url + "\n"); //preview url
-                    console.log("--------------------------------------\n\n");
+
+                    // console.log("------------- Match: "+[i]+" --------------\n");
+                    // console.log("Artist: " + response.tracks.items[i].artists[0].name + "\n"); // artist name
+                    // console.log("Song: " + response.tracks.items[i].name + "\n"); //song name
+                    // console.log("Album: " + response.tracks.items[i].album.name + "\n"); // album name
+                    // console.log("Preview URL: " + response.tracks.items[i].preview_url + "\n"); //preview url
+                    // console.log("--------------------------------------\n\n");
+
+                    let songData = [
+                        "------------- Match: "+[i]+" --------------\n",
+                        "Artist: " + response.tracks.items[i].artists[0].name,
+                        "Song: " + response.tracks.items[i].name,
+                        "Album: " + response.tracks.items[i].album.name,
+                        "Preview URL: " + response.tracks.items[i].preview_url,
+                        "--------------------------------------\n\n"
+                    ].join("\n\n")
+
+                    console.log(songData);
+
+                    fs.appendFile('log.txt', "\n\n-OUTPUT- \n" + songData, (err) => {
+                        if (err) throw err;
+                        
+                    });  
                 };
 
                 if (run == true) {
@@ -268,7 +291,7 @@ function spotifyThis() {
                     start();
 
                 };
-            }; // END OF CONDITIONAL IF STATEMENT for songInput defined/undefined.
+            
            
         })
         .catch(function(err) {
@@ -303,7 +326,7 @@ function movieThis() {
 
         axios.get("http://www.omdbapi.com/?t=" + movieInput + "&y=&plot=short&apikey=trilogy").then(function(response) {
 
-            if (response.data.Title == undefined) {
+            if (!response.data.Title) {
 
                 let movieInput = "Mr. Nobody";
             
@@ -313,16 +336,36 @@ function movieThis() {
 
                     console.log("\nSorry, we couldn't find that movie, so we searched this one instead. Check it out!\n")
 
-                    console.log("\n-----------------------------");
-                    console.log("\nMovie: " + response.data.Title); // Movie title.
-                    console.log("\nRelease date: " + response.data.Released); // Release date.
-                    console.log("\nIMDB-rating: " + response.data.imdbRating); //Movie imdb rating.
-                    console.log("\n" + response.data.Ratings[1].Source + " rating: " + response.data.Ratings[1].Value); // Rotten Tomatoes rating.
-                    console.log("\nCountry produced in: " + response.data.Country); // Country where the movie was produced.
-                    console.log("\nLanguage: " + response.data.Language); // Language of the movie.
-                    console.log("\nPlot: " + response.data.Plot); // Plot of the movie.
-                    console.log("\nActors: " + response.data.Actors); // Actors in the movie.
-                    console.log("\n-----------------------------");
+                    // console.log("\n-----------------------------");
+                    // console.log("\nMovie: " + response.data.Title); // Movie title.
+                    // console.log("\nRelease date: " + response.data.Released); // Release date.
+                    // console.log("\nIMDB-rating: " + response.data.imdbRating); //Movie imdb rating.
+                    // console.log("\n" + response.data.Ratings[1].Source + " rating: " + response.data.Ratings[1].Value); // Rotten Tomatoes rating.
+                    // console.log("\nCountry produced in: " + response.data.Country); // Country where the movie was produced.
+                    // console.log("\nLanguage: " + response.data.Language); // Language of the movie.
+                    // console.log("\nPlot: " + response.data.Plot); // Plot of the movie.
+                    // console.log("\nActors: " + response.data.Actors); // Actors in the movie.
+                    // console.log("\n-----------------------------");
+
+                    let defaultMovieData = [
+                        "-----------------------------",
+                        "Movie: " + response.data.Title,
+                        "Release date: " + response.data.Released,
+                        "IMDB-rating: " + response.data.imdbRating,
+                        response.data.Ratings[1].Source + " rating: " + response.data.Ratings[1].Value,
+                        "Country produced in: " + response.data.Country,
+                        "Language: " + response.data.Language,
+                        "Plot: " + response.data.Plot,
+                        "Actors: " + response.data.Actors,
+                        "-----------------------------"
+                    ].join("\n\n")
+        
+                    console.log(defaultMovieData);
+        
+                    fs.appendFile('log.txt', "\n\n-OUTPUT- \n" + defaultMovieData, (err) => {
+                        if (err) throw err;
+                        console.log('\nlogged\n');
+                    }); 
 
                     if(run == true) {
 
@@ -348,16 +391,36 @@ function movieThis() {
             } else {
                 run = true;
 
-                console.log("\n-----------------------------");
-                console.log("\nMovie: " + response.data.Title); // Movie title.
-                console.log("\nRelease date: " + response.data.Released); // Release date.
-                console.log("\nIMDB-rating: " + response.data.imdbRating); //Movie imdb rating.
-                console.log("\n" + response.data.Ratings[1].Source + " rating: " + response.data.Ratings[1].Value); // Rotten Tomatoes rating.
-                console.log("\nCountry produced in: " + response.data.Country); // Country where the movie was produced.
-                console.log("\nLanguage: " + response.data.Language); // Language of the movie.
-                console.log("\nPlot: " + response.data.Plot); // Plot of the movie.
-                console.log("\nActors: " + response.data.Actors); // Actors in the movie.
-                console.log("\n-----------------------------");
+                // console.log("\n-----------------------------");
+                // console.log("\nMovie: " + response.data.Title); // Movie title.
+                // console.log("\nRelease date: " + response.data.Released); // Release date.
+                // console.log("\nIMDB-rating: " + response.data.imdbRating); //Movie imdb rating.
+                // console.log("\n" + response.data.Ratings[1].Source + " rating: " + response.data.Ratings[1].Value); // Rotten Tomatoes rating.
+                // console.log("\nCountry produced in: " + response.data.Country); // Country where the movie was produced.
+                // console.log("\nLanguage: " + response.data.Language); // Language of the movie.
+                // console.log("\nPlot: " + response.data.Plot); // Plot of the movie.
+                // console.log("\nActors: " + response.data.Actors); // Actors in the movie.
+                // console.log("\n-----------------------------");
+
+                let movieData = [
+                    "-----------------------------",
+                    "Movie: " + response.data.Title,
+                    "Release date: " + response.data.Released,
+                    "IMDB-rating: " + response.data.imdbRating,
+                    response.data.Ratings[1].Source + " rating: " + response.data.Ratings[1].Value,
+                    "Country produced in: " + response.data.Country,
+                    "Language: " + response.data.Language,
+                    "Plot: " + response.data.Plot,
+                    "Actors: " + response.data.Actors,
+                    "-----------------------------"
+                ].join("\n\n")
+    
+                console.log(movieData);
+    
+                fs.appendFile('log.txt', "\n\n-OUTPUT- \n" + movieData, (err) => {
+                    if (err) throw err;
+                    console.log('\nlogged\n');
+                }); 
 
                 if(run == true) {
 
@@ -397,7 +460,15 @@ function doThis() {
 
 function concertThisCommand(searchInput) {
 
-    let artistInput = searchInput;
+    let artistInput;
+
+    if (!searchInput) {
+        artistInput = "Insomnium"
+        // Default artist search
+    } else {
+        artistInput = searchInput;
+    };  
+    
 
     axios.get("https://rest.bandsintown.com/artists/" + artistInput + "/events?app_id=codingbootcamp").then(function(response) {
        
@@ -411,10 +482,24 @@ function concertThisCommand(searchInput) {
             city = response.data[i].venue.city;
             region = response.data[i].venue.region
                 
-            console.log("-----------------------------\n");
-            console.log(" " + bandName + "\n  upcoming show # " + [i] + ":\n  " + showDate + " \n  In the city of: " + city + ", " + region + " \n  at: " + venueName + "\n");
+            // console.log("-----------------------------\n");
+            // console.log(" " + bandName + "\n  upcoming show # " + [i] + ":\n  " + showDate + " \n  In the city of: " + city + ", " + region + " \n  at: " + venueName + "\n");
 
-            
+            let bandData = [
+                "-----------------------------\n",
+                "Band: " + bandName,
+                "Upcoming show " + "#" + [i] + ": " + showDate,
+                "In the city of: " + city + ", " + region,
+                "At: " + venueName,
+                "-----------------------------\n"
+            ].join("\n\n")
+
+            console.log(bandData);
+
+                fs.appendFile('log.txt', "\n\n-OUTPUT- \n" + bandData, (err) => {
+                    if (err) throw err;
+                        
+                });    
             
         }; // END OF "for loop".
 
@@ -428,8 +513,14 @@ function concertThisCommand(searchInput) {
 }; // END OF 'concertThisCommand' FUNCTION
 
 function spotifyThisCommand(searchInput) {
-
-    let songInput = searchInput;
+    
+    let songInput;
+    if (!searchInput) {
+        songInput = "The Sign"
+        // Default spotify search
+    } else {
+        songInput = searchInput;
+    };  
     var spotify = new Spotify(keys.spotify);
 
         // Node-spotify-api search.
@@ -440,41 +531,37 @@ function spotifyThisCommand(searchInput) {
             }
         ).then(function(response) {
            
-            if (songInput = undefined) {
-
-                // Default spotify search
-                spotify.search(
-                    {
-                        type: 'track',
-                        query: "The Sign"
-                    }
-                ).then(function(defaultResponse){
-
-                    run = true;
-
-                    console.log("--------------------------------------\n");
-                    console.log("Artist: " + defaultResponse.tracks.items[0].artists[0].name + "\n"); // artist name
-                    console.log("Song: " + defaultResponse.tracks.items[0].name + "\n"); //song name
-                    console.log("Album: " + defaultResponse.tracks.items[0].album.name + "\n"); // album name
-                    console.log("Preview URL: " + defaultResponse.tracks.items[0].preview_url + "\n"); //preview url
-                    console.log("--------------------------------------\n");
- 
-                });
-
-            } else {
-
                 console.log("\nHere's a list of Artists on spotify that match your search. \n");
 
                 for(let i = 0; i < response.tracks.items.length; i++) {
-                    console.log("------------- Match: "+[i]+" --------------\n");
-                    console.log("Artist: " + response.tracks.items[i].artists[0].name + "\n"); // artist name
-                    console.log("Song: " + response.tracks.items[i].name + "\n"); //song name
-                    console.log("Album: " + response.tracks.items[i].album.name + "\n"); // album name
-                    console.log("Preview URL: " + response.tracks.items[i].preview_url + "\n"); //preview url
-                    console.log("--------------------------------------\n\n");
+                    // console.log("------------- Match: "+[i]+" --------------\n");
+                    // console.log("Artist: " + response.tracks.items[i].artists[0].name + "\n"); // artist name
+                    // console.log("Song: " + response.tracks.items[i].name + "\n"); //song name
+                    // console.log("Album: " + response.tracks.items[i].album.name + "\n"); // album name
+                    // console.log("Preview URL: " + response.tracks.items[i].preview_url + "\n"); //preview url
+                    // console.log("--------------------------------------\n\n");
+
+                    let songData = [
+                        "------------- Match: "+[i]+" --------------\n",
+                        "Artist: " + response.tracks.items[i].artists[0].name,
+                        "Song: " + response.tracks.items[i].name,
+                        "Album: " + response.tracks.items[i].album.name,
+                        "Preview URL: " + response.tracks.items[i].preview_url,
+                        "--------------------------------------\n\n"
+                    ].join("\n\n")
+
+                    console.log(songData);
+
+                    fs.appendFile('log.txt', "\n\n-OUTPUT- \n" + songData, (err) => {
+                        if (err) throw err;
+                        
+                    });    
+
                 };
 
-            }; // END OF CONDITIONAL IF STATEMENT for songInput defined/undefined.
+                console.log("-----------------------------");
+                console.log("\n" + "^ ^ ^ Review the returned data above ^ ^ ^" + "\n");
+                console.log("-----------------------------");
            
         })
         .catch(function(err) {
@@ -498,16 +585,40 @@ function spotifyThisCommand(searchInput) {
         console.log(queryURL)
         axios.get(queryURL).then(function(response) {
 
-                console.log("\n-----------------------------");
-                console.log("\nMovie: " + response.data.Title); // Movie title.
-                console.log("\nRelease date: " + response.data.Released); // Release date.
-                console.log("\nIMDB-rating: " + response.data.imdbRating); //Movie imdb rating.
-                console.log("\n" + response.data.Ratings[1].Source + " rating: " + response.data.Ratings[1].Value); // Rotten Tomatoes rating.
-                console.log("\nCountry produced in: " + response.data.Country); // Country where the movie was produced.
-                console.log("\nLanguage: " + response.data.Language); // Language of the movie.
-                console.log("\nPlot: " + response.data.Plot); // Plot of the movie.
-                console.log("\nActors: " + response.data.Actors); // Actors in the movie.
-                console.log("\n-----------------------------");
+                // console.log("\n-----------------------------");
+                // console.log("\nMovie: " + response.data.Title); // Movie title.
+                // console.log("\nRelease date: " + response.data.Released); // Release date.
+                // console.log("\nIMDB-rating: " + response.data.imdbRating); //Movie imdb rating.
+                // console.log("\n" + response.data.Ratings[1].Source + " rating: " + response.data.Ratings[1].Value); // Rotten Tomatoes rating.
+                // console.log("\nCountry produced in: " + response.data.Country); // Country where the movie was produced.
+                // console.log("\nLanguage: " + response.data.Language); // Language of the movie.
+                // console.log("\nPlot: " + response.data.Plot); // Plot of the movie.
+                // console.log("\nActors: " + response.data.Actors); // Actors in the movie.
+                // console.log("\n-----------------------------");
+
+            let movieData = [
+                "-----------------------------",
+                "Movie: " + response.data.Title,
+                "Release date: " + response.data.Released,
+                "IMDB-rating: " + response.data.imdbRating,
+                response.data.Ratings[1].Source + " rating: " + response.data.Ratings[1].Value,
+                "Country produced in: " + response.data.Country,
+                "Language: " + response.data.Language,
+                "Plot: " + response.data.Plot,
+                "Actors: " + response.data.Actors,
+                "-----------------------------"
+            ].join("\n\n")
+
+            console.log(movieData);
+
+            fs.appendFile('log.txt', "\n\n-OUTPUT- \n" + movieData, (err) => {
+                if (err) throw err;
+                console.log('\nlogged\n');
+            }); 
+            
+            console.log("-----------------------------");
+            console.log("\n" + "^ ^ ^ Review the returned data above ^ ^ ^" + "\n");
+            console.log("-----------------------------");
 
         }).catch(function(error) {
             if (error.response) {
@@ -518,7 +629,7 @@ function spotifyThisCommand(searchInput) {
                 console.log("error #3: " + error.message);
             };
 
-        });
+        }); // END OF "then" & "catch" Axios PROMISE.
     
 }  // END OF 'movieThisCommand' FUNCTION 
 

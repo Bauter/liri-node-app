@@ -96,3 +96,5586 @@ movie-this,
 movie-this, 
 movie-this, 
 movie-this, the matrix
+--------
+
+movie-this, oldboyoutput 
+-----------------------------
+
+Movie: Oldboy
+
+Release date: 21 Nov 2003
+
+IMDB-rating: 8.4
+
+Rotten Tomatoes rating: 82%
+
+Country produced in: South Korea
+
+Language: Korean
+
+Plot: After being kidnapped and imprisoned for fifteen years, Oh Dae-Su is released, only to find that he must find his captor in five days.
+
+Actors: Min-sik Choi, Ji-Tae Yoo, Hye-jeong Kang, Dae-han Ji
+
+-----------------------------
+--------
+
+movie-this, the matrix
+ output 
+-----------------------------
+
+Movie: The Matrix
+
+Release date: 31 Mar 1999
+
+IMDB-rating: 8.7
+
+Rotten Tomatoes rating: 88%
+
+Country produced in: USA
+
+Language: English
+
+Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+
+Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
+
+-----------------------------
+
+
+movie-this, It comes at night
+ output 
+-----------------------------
+
+Movie: It Comes At Night
+
+Release date: 09 Jun 2017
+
+IMDB-rating: 6.2
+
+Rotten Tomatoes rating: 87%
+
+Country produced in: USA
+
+Language: English
+
+Plot: Secure within a desolate home as an unnatural threat terrorizes the world, a man has established a tenuous domestic order with his wife and son. Then a desperate young family arrives seeking refuge.
+
+Actors: Joel Edgerton, Christopher Abbott, Carmen Ejogo, Riley Keough
+
+-----------------------------
+INPUT
+
+movie-this, Godzilla
+ output 
+-----------------------------
+
+Movie: Godzilla
+
+Release date: 16 May 2014
+
+IMDB-rating: 6.4
+
+Rotten Tomatoes rating: 75%
+
+Country produced in: USA, Japan
+
+Language: English, Japanese
+
+Plot: The world is beset by the appearance of monstrous creatures, but one of them may be the only one who can save humanity.
+
+Actors: Aaron Taylor-Johnson, CJ Adams, Ken Watanabe, Bryan Cranston
+
+-----------------------------
+INPUT
+
+movie-this, frozen
+
+ OUTPUT 
+-----------------------------
+
+Movie: Frozen
+
+Release date: 27 Nov 2013
+
+IMDB-rating: 7.5
+
+Rotten Tomatoes rating: 90%
+
+Country produced in: USA
+
+Language: English, Norwegian
+
+Plot: When the newly crowned Queen Elsa accidentally uses her power to turn things into ice to curse her home in infinite winter, her sister Anna teams up with a mountain man, his playful reindeer, and a snowman to change the weather condition.
+
+Actors: Kristen Bell, Idina Menzel, Jonathan Groff, Josh Gad
+
+-----------------------------
+-INPUT-
+
+movie-this, the grinch
+
+-OUTPUT- 
+-----------------------------
+
+Movie: Dr. Seuss' The Grinch
+
+Release date: 09 Nov 2018
+
+IMDB-rating: 6.3
+
+Rotten Tomatoes rating: 59%
+
+Country produced in: France, Japan, USA
+
+Language: English
+
+Plot: A grumpy Grinch (Benedict Cumberbatch) plots to ruin Christmas for the village of Whoville.
+
+Actors: Benedict Cumberbatch, Cameron Seely, Rashida Jones, Pharrell Williams
+
+-----------------------------
+-INPUT-
+
+movie-this, The matrix
+
+-OUTPUT- 
+-----------------------------
+
+Movie: The Matrix
+
+Release date: 31 Mar 1999
+
+IMDB-rating: 8.7
+
+Rotten Tomatoes rating: 88%
+
+Country produced in: USA
+
+Language: English
+
+Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+
+Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
+
+-----------------------------
+-INPUT-
+
+no-commands-entered-to-log
+-INPUT-
+
+spotify-this-song, fade to black
+
+-OUTPUT- 
+------------- Match: 0 --------------
+
+
+Artist: Metallica
+
+Song: Fade To Black (Remastered)
+
+Album: Ride The Lightning (Deluxe Remaster)
+
+Preview URL: https://p.scdn.co/mp3-preview/1ed11e779717e87b588b0a47c0e3a2b5a7717bfe?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 1 --------------
+
+
+Artist: Born Ruffians
+
+Song: Fade to Black
+
+Album: Uncle, Duke & The Chief
+
+Preview URL: https://p.scdn.co/mp3-preview/c034f2565cacd08a1c36f76232afb44ac8c5d042?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 2 --------------
+
+
+Artist: BeauDamian
+
+Song: Fade To Black
+
+Album: Fade To Black
+
+Preview URL: https://p.scdn.co/mp3-preview/c73c80d0a14959cf120c716ca102fb9a7657f445?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 4 --------------
+
+
+Artist: Tres Hanley-Millman
+
+Song: Fade to Black
+
+Album: Fade to Black
+
+Preview URL: https://p.scdn.co/mp3-preview/27b042a7a8c4eeb19ea60392eab98dc230636bee?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 5 --------------
+
+
+Artist: Dire Straits
+
+Song: Fade to Black
+
+Album: On Every Street (Remastered Version)
+
+Preview URL: https://p.scdn.co/mp3-preview/110181cecffbeb095aa7bead1893fc3b75c83753?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 6 --------------
+
+
+Artist: Metallica
+
+Song: Fade to Black - Live at Rasputin Music, Berkeley, CA - April 16th, 2016
+
+Album: Hardwired…To Self-Destruct (Deluxe)
+
+Preview URL: https://p.scdn.co/mp3-preview/9359c66a19907679f4e06df0c2046f7d3a34d246?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 3 --------------
+
+
+Artist: Apocalyptica
+
+Song: Fade To Black
+
+Album: Inquisition Symphony
+
+Preview URL: null
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 7 --------------
+
+
+Artist: Mark Diamond
+
+Song: Fade to Black (Stripped) [Lost Recording #2]
+
+Album: War (The Lost Recordings)
+
+Preview URL: https://p.scdn.co/mp3-preview/44573b93384f05ca248af01f0784b404625ecf88?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 8 --------------
+
+
+Artist: Metallica
+
+Song: Fade To Black (Live in Mexico City)
+
+Album: Live S**t: Binge & Purge
+
+Preview URL: https://p.scdn.co/mp3-preview/d16075b5d4eef1d62001f5754a68ab521d2ae310?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 9 --------------
+
+
+Artist: Metallica
+
+Song: Fade to Black (Live - Seattle '89)
+
+Album: ...And Justice for All (Remastered Deluxe Box Set)
+
+Preview URL: https://p.scdn.co/mp3-preview/256bc4af7deba33661ede66317891ef3ba7a17a1?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 10 --------------
+
+
+Artist: Northbound
+
+Song: Fade to Black
+
+Album: Fade To Black
+
+Preview URL: https://p.scdn.co/mp3-preview/2fcb334122a0656f1f09598608d678d83a3364ec?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 11 --------------
+
+
+Artist: Rockabye Baby!
+
+Song: Fade to Black
+
+Album: Lullaby Renditions of Metallica
+
+Preview URL: https://p.scdn.co/mp3-preview/ed7779be8c7e9e5cb7a07918d2ffbd58be9917e3?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 12 --------------
+
+
+Artist: Dire Straits
+
+Song: Fade To Black
+
+Album: On Every Street
+
+Preview URL: null
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 13 --------------
+
+
+Artist: Relax Tones
+
+Song: Fade to Black
+
+Album: Mysterious Dreamer
+
+Preview URL: https://p.scdn.co/mp3-preview/7da71da676ca21a9a27d790d3e1f5038bb121908?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 14 --------------
+
+
+Artist: Sonata Arctica
+
+Song: Fade to Black
+
+Album: Takatalvi
+
+Preview URL: null
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 15 --------------
+
+
+Artist: Metallica
+
+Song: Fade To Black (Live at The Hollywood Palladium, Los Angeles, CA – March 10th, 1985)
+
+Album: Ride The Lightning (Deluxe Remaster)
+
+Preview URL: https://p.scdn.co/mp3-preview/26e92bd2eb48005a259c74276a7195b10add35de?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 16 --------------
+
+
+Artist: Disturbed
+
+Song: Fade to Black - Live
+
+Album: Music as a Weapon II
+
+Preview URL: https://p.scdn.co/mp3-preview/6350c9af74f8091a47a73e97ff04be76f929502f?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 17 --------------
+
+
+Artist: Metallica
+
+Song: Fade to Black (Live at the Aragon Ballroom, Chicago, IL - May 25th, 1986)
+
+Album: Master of Puppets (Remastered Deluxe Box Set)
+
+Preview URL: https://p.scdn.co/mp3-preview/d7f26831efe535a2834622318cb740da08d0ee20?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 19 --------------
+
+
+Artist: KUURO
+
+Song: Fade to Black
+
+Album: Fade to Black
+
+Preview URL: https://p.scdn.co/mp3-preview/a796adcb8a8df7ecfa15090b36d2de82602ffcee?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 18 --------------
+
+
+Artist: 8 Graves
+
+Song: Fade to Black
+
+Album: Mixtape
+
+Preview URL: https://p.scdn.co/mp3-preview/2de2aa3f1efa8e1fa8ef76b7a59f65c3de374b69?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+-INPUT-
+
+movie-this, 
+
+-OUTPUT- 
+-----------------------------
+
+Movie: Mr. Nobody
+
+Release date: 26 Sep 2013
+
+IMDB-rating: 7.8
+
+Rotten Tomatoes rating: 67%
+
+Country produced in: Belgium, Germany, Canada, France, USA, UK
+
+Language: English, Mohawk
+
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+
+-----------------------------
+-INPUT-
+
+movie-this, The matrix
+
+-OUTPUT- 
+-----------------------------
+
+Movie: The Matrix
+
+Release date: 31 Mar 1999
+
+IMDB-rating: 8.7
+
+Rotten Tomatoes rating: 88%
+
+Country produced in: USA
+
+Language: English
+
+Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+
+Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
+
+-----------------------------
+-INPUT-
+
+spotify-this-song, 
+
+-OUTPUT- 
+------------- Match: 0 --------------
+
+
+Artist: Ace of Base
+
+Song: The Sign
+
+Album: The Sign (US Album) [Remastered]
+
+Preview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 2 --------------
+
+
+Artist: Black Sabbath
+
+Song: The Sign of the Southern Cross - 2008 Remaster
+
+Album: Mob Rules (2008 Remaster)
+
+Preview URL: https://p.scdn.co/mp3-preview/8253e50eb6d3a0a4a59fa0a64c4b05d2426e0324?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 1 --------------
+
+
+Artist: Killswitch Engage
+
+Song: The Signal Fire
+
+Album: Atonement
+
+Preview URL: https://p.scdn.co/mp3-preview/5a7c2686426faf51625474fc90383b070607958f?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 3 --------------
+
+
+Artist: Nujabes
+
+Song: The Sign (feat. Pase Rock)
+
+Album: Modal Soul
+
+Preview URL: https://p.scdn.co/mp3-preview/3e8b1159ba140a96d433d01a13730813d0cd7deb?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 4 --------------
+
+
+Artist: R.I.O.
+
+Song: The Sign
+
+Album: The Sign
+
+Preview URL: https://p.scdn.co/mp3-preview/c2eb7d777eba31c9bd9971061b567acde4d937c4?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 5 --------------
+
+
+Artist: Devvon Terrell
+
+Song: The Signs
+
+Album: The Rawe Sound, Vol 1
+
+Preview URL: https://p.scdn.co/mp3-preview/6d3bf4ffa50a26c7f10fc32ebb7e8f84d5102208?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 7 --------------
+
+
+Artist: Foo Fighters
+
+Song: The Sign
+
+Album: 01050525
+
+Preview URL: https://p.scdn.co/mp3-preview/f49911c59e70591dcb9d9654bd004dfca0d749e9?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 6 --------------
+
+
+Artist: The Fixx
+
+Song: The Sign Of Fire
+
+Album: Reach The Beach
+
+Preview URL: null
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 8 --------------
+
+
+Artist: BertycoX
+
+Song: The Signal
+
+Album: The Signal
+
+Preview URL: https://p.scdn.co/mp3-preview/eca65aada4c44c3d0349416640d97de063819e21?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 9 --------------
+
+
+Artist: Aimnu Kolec
+
+Song: The Sign
+
+Album: The Sign
+
+Preview URL: https://p.scdn.co/mp3-preview/bef5fa75fa2b62e381835afdbe9142e42f52b440?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 10 --------------
+
+
+Artist: Gary Gulman
+
+Song: The @ Sign
+
+Album: No Can Defend
+
+Preview URL: https://p.scdn.co/mp3-preview/1c376e48263a24e7839811f0bc3cef9b7c828c64?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 11 --------------
+
+
+Artist: Alex Christensen
+
+Song: The Sign (feat. Natasha Bedingfield)
+
+Album: The Sign (feat. Natasha Bedingfield)
+
+Preview URL: https://p.scdn.co/mp3-preview/00b4411a5f877807378994936a2ab7da2b83af15?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 12 --------------
+
+
+Artist: Young Oceans
+
+Song: The Sign
+
+Album: Steady the Stars (Instrumentals)
+
+Preview URL: https://p.scdn.co/mp3-preview/45e83ac6fed18d0bcd2a1c257f10499bc41a880a?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 13 --------------
+
+
+Artist: The Mountain Goats
+
+Song: The Sign
+
+Album: Bitter Melon Farm
+
+Preview URL: https://p.scdn.co/mp3-preview/8b37738ec303f5a42bbd0ac4d6d7a1c5da70cb5f?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 15 --------------
+
+
+Artist: Saxophone Jazz
+
+Song: The Signs Were There
+
+Album: Smooth Saxophone Jazz
+
+Preview URL: https://p.scdn.co/mp3-preview/6061cbbe01bfe6005ba0f97dc73c8e540d99e6eb?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 14 --------------
+
+
+Artist: Little Big
+
+Song: The Sign
+
+Album: Funeral Rave
+
+Preview URL: https://p.scdn.co/mp3-preview/0b8a53ed4b127464a5ea35886cddac27a58603a9?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 16 --------------
+
+
+Artist: Tash
+
+Song: The Signs
+
+Album: VOLUME 1
+
+Preview URL: https://p.scdn.co/mp3-preview/bae1f5b772044a9d8f1719a9afae2aa5ac7d89b2?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 17 --------------
+
+
+Artist: Leo
+
+Song: The Sign (Metal Version)
+
+Album: Leo Metal, Vol. 24
+
+Preview URL: https://p.scdn.co/mp3-preview/b258a6536c3a344e11843f39b98a868129f450e9?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 18 --------------
+
+
+Artist: Softpaw
+
+Song: The Sign
+
+Album: The Sign
+
+Preview URL: https://p.scdn.co/mp3-preview/e131b0f86c6904beb905aefef038f9cb1e488ba6?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 19 --------------
+
+
+Artist: The Barden Bellas
+
+Song: Bellas Regionals: The Sign/Eternal Flame/Turn The Beat Around
+
+Album: Ultimate Pitch Perfect (Original Motion Picture Soundtrack)
+
+Preview URL: null
+
+--------------------------------------
+
+
+-INPUT-
+
+spotify-this-song, fade to black
+
+-OUTPUT- 
+------------- Match: 0 --------------
+
+
+Artist: Ace of Base
+
+Song: The Sign
+
+Album: The Sign (US Album) [Remastered]
+
+Preview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 2 --------------
+
+
+Artist: Black Sabbath
+
+Song: The Sign of the Southern Cross - 2008 Remaster
+
+Album: Mob Rules (2008 Remaster)
+
+Preview URL: https://p.scdn.co/mp3-preview/8253e50eb6d3a0a4a59fa0a64c4b05d2426e0324?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 1 --------------
+
+
+Artist: Killswitch Engage
+
+Song: The Signal Fire
+
+Album: Atonement
+
+Preview URL: https://p.scdn.co/mp3-preview/5a7c2686426faf51625474fc90383b070607958f?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 3 --------------
+
+
+Artist: Nujabes
+
+Song: The Sign (feat. Pase Rock)
+
+Album: Modal Soul
+
+Preview URL: https://p.scdn.co/mp3-preview/3e8b1159ba140a96d433d01a13730813d0cd7deb?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 5 --------------
+
+
+Artist: Devvon Terrell
+
+Song: The Signs
+
+Album: The Rawe Sound, Vol 1
+
+Preview URL: https://p.scdn.co/mp3-preview/6d3bf4ffa50a26c7f10fc32ebb7e8f84d5102208?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 4 --------------
+
+
+Artist: R.I.O.
+
+Song: The Sign
+
+Album: The Sign
+
+Preview URL: https://p.scdn.co/mp3-preview/c2eb7d777eba31c9bd9971061b567acde4d937c4?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 6 --------------
+
+
+Artist: The Fixx
+
+Song: The Sign Of Fire
+
+Album: Reach The Beach
+
+Preview URL: null
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 7 --------------
+
+
+Artist: Foo Fighters
+
+Song: The Sign
+
+Album: 01050525
+
+Preview URL: https://p.scdn.co/mp3-preview/f49911c59e70591dcb9d9654bd004dfca0d749e9?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 8 --------------
+
+
+Artist: BertycoX
+
+Song: The Signal
+
+Album: The Signal
+
+Preview URL: https://p.scdn.co/mp3-preview/eca65aada4c44c3d0349416640d97de063819e21?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 9 --------------
+
+
+Artist: Aimnu Kolec
+
+Song: The Sign
+
+Album: The Sign
+
+Preview URL: https://p.scdn.co/mp3-preview/bef5fa75fa2b62e381835afdbe9142e42f52b440?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 10 --------------
+
+
+Artist: Gary Gulman
+
+Song: The @ Sign
+
+Album: No Can Defend
+
+Preview URL: https://p.scdn.co/mp3-preview/1c376e48263a24e7839811f0bc3cef9b7c828c64?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 11 --------------
+
+
+Artist: Alex Christensen
+
+Song: The Sign (feat. Natasha Bedingfield)
+
+Album: The Sign (feat. Natasha Bedingfield)
+
+Preview URL: https://p.scdn.co/mp3-preview/00b4411a5f877807378994936a2ab7da2b83af15?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 12 --------------
+
+
+Artist: Young Oceans
+
+Song: The Sign
+
+Album: Steady the Stars (Instrumentals)
+
+Preview URL: https://p.scdn.co/mp3-preview/45e83ac6fed18d0bcd2a1c257f10499bc41a880a?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 13 --------------
+
+
+Artist: The Mountain Goats
+
+Song: The Sign
+
+Album: Bitter Melon Farm
+
+Preview URL: https://p.scdn.co/mp3-preview/8b37738ec303f5a42bbd0ac4d6d7a1c5da70cb5f?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 14 --------------
+
+
+Artist: Little Big
+
+Song: The Sign
+
+Album: Funeral Rave
+
+Preview URL: https://p.scdn.co/mp3-preview/0b8a53ed4b127464a5ea35886cddac27a58603a9?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 15 --------------
+
+
+Artist: Saxophone Jazz
+
+Song: The Signs Were There
+
+Album: Smooth Saxophone Jazz
+
+Preview URL: https://p.scdn.co/mp3-preview/6061cbbe01bfe6005ba0f97dc73c8e540d99e6eb?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 16 --------------
+
+
+Artist: Tash
+
+Song: The Signs
+
+Album: VOLUME 1
+
+Preview URL: https://p.scdn.co/mp3-preview/bae1f5b772044a9d8f1719a9afae2aa5ac7d89b2?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 17 --------------
+
+
+Artist: Leo
+
+Song: The Sign (Metal Version)
+
+Album: Leo Metal, Vol. 24
+
+Preview URL: https://p.scdn.co/mp3-preview/b258a6536c3a344e11843f39b98a868129f450e9?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 18 --------------
+
+
+Artist: Softpaw
+
+Song: The Sign
+
+Album: The Sign
+
+Preview URL: https://p.scdn.co/mp3-preview/e131b0f86c6904beb905aefef038f9cb1e488ba6?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 19 --------------
+
+
+Artist: The Barden Bellas
+
+Song: Bellas Regionals: The Sign/Eternal Flame/Turn The Beat Around
+
+Album: Ultimate Pitch Perfect (Original Motion Picture Soundtrack)
+
+Preview URL: null
+
+--------------------------------------
+
+
+-INPUT-
+
+spotify-this-song, 
+
+-OUTPUT- 
+------------- Match: 1 --------------
+
+
+Artist: Killswitch Engage
+
+Song: The Signal Fire
+
+Album: Atonement
+
+Preview URL: https://p.scdn.co/mp3-preview/5a7c2686426faf51625474fc90383b070607958f?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 0 --------------
+
+
+Artist: Ace of Base
+
+Song: The Sign
+
+Album: The Sign (US Album) [Remastered]
+
+Preview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 3 --------------
+
+
+Artist: Nujabes
+
+Song: The Sign (feat. Pase Rock)
+
+Album: Modal Soul
+
+Preview URL: https://p.scdn.co/mp3-preview/3e8b1159ba140a96d433d01a13730813d0cd7deb?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 2 --------------
+
+
+Artist: Black Sabbath
+
+Song: The Sign of the Southern Cross - 2008 Remaster
+
+Album: Mob Rules (2008 Remaster)
+
+Preview URL: https://p.scdn.co/mp3-preview/8253e50eb6d3a0a4a59fa0a64c4b05d2426e0324?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 4 --------------
+
+
+Artist: R.I.O.
+
+Song: The Sign
+
+Album: The Sign
+
+Preview URL: https://p.scdn.co/mp3-preview/c2eb7d777eba31c9bd9971061b567acde4d937c4?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 6 --------------
+
+
+Artist: The Fixx
+
+Song: The Sign Of Fire
+
+Album: Reach The Beach
+
+Preview URL: null
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 7 --------------
+
+
+Artist: Foo Fighters
+
+Song: The Sign
+
+Album: 01050525
+
+Preview URL: https://p.scdn.co/mp3-preview/f49911c59e70591dcb9d9654bd004dfca0d749e9?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 5 --------------
+
+
+Artist: Devvon Terrell
+
+Song: The Signs
+
+Album: The Rawe Sound, Vol 1
+
+Preview URL: https://p.scdn.co/mp3-preview/6d3bf4ffa50a26c7f10fc32ebb7e8f84d5102208?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 8 --------------
+
+
+Artist: BertycoX
+
+Song: The Signal
+
+Album: The Signal
+
+Preview URL: https://p.scdn.co/mp3-preview/eca65aada4c44c3d0349416640d97de063819e21?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 9 --------------
+
+
+Artist: Aimnu Kolec
+
+Song: The Sign
+
+Album: The Sign
+
+Preview URL: https://p.scdn.co/mp3-preview/bef5fa75fa2b62e381835afdbe9142e42f52b440?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 10 --------------
+
+
+Artist: Gary Gulman
+
+Song: The @ Sign
+
+Album: No Can Defend
+
+Preview URL: https://p.scdn.co/mp3-preview/1c376e48263a24e7839811f0bc3cef9b7c828c64?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 11 --------------
+
+
+Artist: Alex Christensen
+
+Song: The Sign (feat. Natasha Bedingfield)
+
+Album: The Sign (feat. Natasha Bedingfield)
+
+Preview URL: https://p.scdn.co/mp3-preview/00b4411a5f877807378994936a2ab7da2b83af15?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 12 --------------
+
+
+Artist: Young Oceans
+
+Song: The Sign
+
+Album: Steady the Stars (Instrumentals)
+
+Preview URL: https://p.scdn.co/mp3-preview/45e83ac6fed18d0bcd2a1c257f10499bc41a880a?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 13 --------------
+
+
+Artist: The Mountain Goats
+
+Song: The Sign
+
+Album: Bitter Melon Farm
+
+Preview URL: https://p.scdn.co/mp3-preview/8b37738ec303f5a42bbd0ac4d6d7a1c5da70cb5f?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 14 --------------
+
+
+Artist: Little Big
+
+Song: The Sign
+
+Album: Funeral Rave
+
+Preview URL: https://p.scdn.co/mp3-preview/0b8a53ed4b127464a5ea35886cddac27a58603a9?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 17 --------------
+
+
+Artist: Leo
+
+Song: The Sign (Metal Version)
+
+Album: Leo Metal, Vol. 24
+
+Preview URL: https://p.scdn.co/mp3-preview/b258a6536c3a344e11843f39b98a868129f450e9?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 15 --------------
+
+
+Artist: Saxophone Jazz
+
+Song: The Signs Were There
+
+Album: Smooth Saxophone Jazz
+
+Preview URL: https://p.scdn.co/mp3-preview/6061cbbe01bfe6005ba0f97dc73c8e540d99e6eb?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 16 --------------
+
+
+Artist: Tash
+
+Song: The Signs
+
+Album: VOLUME 1
+
+Preview URL: https://p.scdn.co/mp3-preview/bae1f5b772044a9d8f1719a9afae2aa5ac7d89b2?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 19 --------------
+
+
+Artist: The Barden Bellas
+
+Song: Bellas Regionals: The Sign/Eternal Flame/Turn The Beat Around
+
+Album: Ultimate Pitch Perfect (Original Motion Picture Soundtrack)
+
+Preview URL: null
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 18 --------------
+
+
+Artist: Softpaw
+
+Song: The Sign
+
+Album: The Sign
+
+Preview URL: https://p.scdn.co/mp3-preview/e131b0f86c6904beb905aefef038f9cb1e488ba6?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+-INPUT-
+
+spotify-this-song, 
+
+-OUTPUT- 
+------------- Match: 0 --------------
+
+
+Artist: Ace of Base
+
+Song: The Sign
+
+Album: The Sign (US Album) [Remastered]
+
+Preview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 3 --------------
+
+
+Artist: Nujabes
+
+Song: The Sign (feat. Pase Rock)
+
+Album: Modal Soul
+
+Preview URL: https://p.scdn.co/mp3-preview/3e8b1159ba140a96d433d01a13730813d0cd7deb?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 1 --------------
+
+
+Artist: Killswitch Engage
+
+Song: The Signal Fire
+
+Album: Atonement
+
+Preview URL: https://p.scdn.co/mp3-preview/5a7c2686426faf51625474fc90383b070607958f?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 4 --------------
+
+
+Artist: R.I.O.
+
+Song: The Sign
+
+Album: The Sign
+
+Preview URL: https://p.scdn.co/mp3-preview/c2eb7d777eba31c9bd9971061b567acde4d937c4?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 2 --------------
+
+
+Artist: Black Sabbath
+
+Song: The Sign of the Southern Cross - 2008 Remaster
+
+Album: Mob Rules (2008 Remaster)
+
+Preview URL: https://p.scdn.co/mp3-preview/8253e50eb6d3a0a4a59fa0a64c4b05d2426e0324?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 5 --------------
+
+
+Artist: Devvon Terrell
+
+Song: The Signs
+
+Album: The Rawe Sound, Vol 1
+
+Preview URL: https://p.scdn.co/mp3-preview/6d3bf4ffa50a26c7f10fc32ebb7e8f84d5102208?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 6 --------------
+
+
+Artist: The Fixx
+
+Song: The Sign Of Fire
+
+Album: Reach The Beach
+
+Preview URL: null
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 7 --------------
+
+
+Artist: Foo Fighters
+
+Song: The Sign
+
+Album: 01050525
+
+Preview URL: https://p.scdn.co/mp3-preview/f49911c59e70591dcb9d9654bd004dfca0d749e9?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 9 --------------
+
+
+Artist: Aimnu Kolec
+
+Song: The Sign
+
+Album: The Sign
+
+Preview URL: https://p.scdn.co/mp3-preview/bef5fa75fa2b62e381835afdbe9142e42f52b440?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 10 --------------
+
+
+Artist: Gary Gulman
+
+Song: The @ Sign
+
+Album: No Can Defend
+
+Preview URL: https://p.scdn.co/mp3-preview/1c376e48263a24e7839811f0bc3cef9b7c828c64?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 11 --------------
+
+
+Artist: Alex Christensen
+
+Song: The Sign (feat. Natasha Bedingfield)
+
+Album: The Sign (feat. Natasha Bedingfield)
+
+Preview URL: https://p.scdn.co/mp3-preview/00b4411a5f877807378994936a2ab7da2b83af15?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 8 --------------
+
+
+Artist: BertycoX
+
+Song: The Signal
+
+Album: The Signal
+
+Preview URL: https://p.scdn.co/mp3-preview/eca65aada4c44c3d0349416640d97de063819e21?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 12 --------------
+
+
+Artist: Young Oceans
+
+Song: The Sign
+
+Album: Steady the Stars (Instrumentals)
+
+Preview URL: https://p.scdn.co/mp3-preview/45e83ac6fed18d0bcd2a1c257f10499bc41a880a?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 13 --------------
+
+
+Artist: The Mountain Goats
+
+Song: The Sign
+
+Album: Bitter Melon Farm
+
+Preview URL: https://p.scdn.co/mp3-preview/8b37738ec303f5a42bbd0ac4d6d7a1c5da70cb5f?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 14 --------------
+
+
+Artist: Little Big
+
+Song: The Sign
+
+Album: Funeral Rave
+
+Preview URL: https://p.scdn.co/mp3-preview/0b8a53ed4b127464a5ea35886cddac27a58603a9?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 15 --------------
+
+
+Artist: Saxophone Jazz
+
+Song: The Signs Were There
+
+Album: Smooth Saxophone Jazz
+
+Preview URL: https://p.scdn.co/mp3-preview/6061cbbe01bfe6005ba0f97dc73c8e540d99e6eb?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 16 --------------
+
+
+Artist: Tash
+
+Song: The Signs
+
+Album: VOLUME 1
+
+Preview URL: https://p.scdn.co/mp3-preview/bae1f5b772044a9d8f1719a9afae2aa5ac7d89b2?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 19 --------------
+
+
+Artist: The Barden Bellas
+
+Song: Bellas Regionals: The Sign/Eternal Flame/Turn The Beat Around
+
+Album: Ultimate Pitch Perfect (Original Motion Picture Soundtrack)
+
+Preview URL: null
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 17 --------------
+
+
+Artist: Leo
+
+Song: The Sign (Metal Version)
+
+Album: Leo Metal, Vol. 24
+
+Preview URL: https://p.scdn.co/mp3-preview/b258a6536c3a344e11843f39b98a868129f450e9?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 18 --------------
+
+
+Artist: Softpaw
+
+Song: The Sign
+
+Album: The Sign
+
+Preview URL: https://p.scdn.co/mp3-preview/e131b0f86c6904beb905aefef038f9cb1e488ba6?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+-INPUT-
+
+spotify-this-song, fade to black
+
+-OUTPUT- 
+------------- Match: 1 --------------
+
+
+Artist: Born Ruffians
+
+Song: Fade to Black
+
+Album: Uncle, Duke & The Chief
+
+Preview URL: https://p.scdn.co/mp3-preview/c034f2565cacd08a1c36f76232afb44ac8c5d042?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 0 --------------
+
+
+Artist: Metallica
+
+Song: Fade To Black (Remastered)
+
+Album: Ride The Lightning (Deluxe Remaster)
+
+Preview URL: https://p.scdn.co/mp3-preview/1ed11e779717e87b588b0a47c0e3a2b5a7717bfe?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 3 --------------
+
+
+Artist: Apocalyptica
+
+Song: Fade To Black
+
+Album: Inquisition Symphony
+
+Preview URL: null
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 2 --------------
+
+
+Artist: BeauDamian
+
+Song: Fade To Black
+
+Album: Fade To Black
+
+Preview URL: https://p.scdn.co/mp3-preview/c73c80d0a14959cf120c716ca102fb9a7657f445?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 4 --------------
+
+
+Artist: Tres Hanley-Millman
+
+Song: Fade to Black
+
+Album: Fade to Black
+
+Preview URL: https://p.scdn.co/mp3-preview/27b042a7a8c4eeb19ea60392eab98dc230636bee?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 5 --------------
+
+
+Artist: Dire Straits
+
+Song: Fade to Black
+
+Album: On Every Street (Remastered Version)
+
+Preview URL: https://p.scdn.co/mp3-preview/110181cecffbeb095aa7bead1893fc3b75c83753?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 6 --------------
+
+
+Artist: Metallica
+
+Song: Fade to Black - Live at Rasputin Music, Berkeley, CA - April 16th, 2016
+
+Album: Hardwired…To Self-Destruct (Deluxe)
+
+Preview URL: https://p.scdn.co/mp3-preview/9359c66a19907679f4e06df0c2046f7d3a34d246?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 7 --------------
+
+
+Artist: Mark Diamond
+
+Song: Fade to Black (Stripped) [Lost Recording #2]
+
+Album: War (The Lost Recordings)
+
+Preview URL: https://p.scdn.co/mp3-preview/44573b93384f05ca248af01f0784b404625ecf88?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 8 --------------
+
+
+Artist: Metallica
+
+Song: Fade To Black (Live in Mexico City)
+
+Album: Live S**t: Binge & Purge
+
+Preview URL: https://p.scdn.co/mp3-preview/d16075b5d4eef1d62001f5754a68ab521d2ae310?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 9 --------------
+
+
+Artist: Metallica
+
+Song: Fade to Black (Live - Seattle '89)
+
+Album: ...And Justice for All (Remastered Deluxe Box Set)
+
+Preview URL: https://p.scdn.co/mp3-preview/256bc4af7deba33661ede66317891ef3ba7a17a1?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 10 --------------
+
+
+Artist: Northbound
+
+Song: Fade to Black
+
+Album: Fade To Black
+
+Preview URL: https://p.scdn.co/mp3-preview/2fcb334122a0656f1f09598608d678d83a3364ec?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 11 --------------
+
+
+Artist: Rockabye Baby!
+
+Song: Fade to Black
+
+Album: Lullaby Renditions of Metallica
+
+Preview URL: https://p.scdn.co/mp3-preview/ed7779be8c7e9e5cb7a07918d2ffbd58be9917e3?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 12 --------------
+
+
+Artist: Dire Straits
+
+Song: Fade To Black
+
+Album: On Every Street
+
+Preview URL: null
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 13 --------------
+
+
+Artist: Relax Tones
+
+Song: Fade to Black
+
+Album: Mysterious Dreamer
+
+Preview URL: https://p.scdn.co/mp3-preview/7da71da676ca21a9a27d790d3e1f5038bb121908?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 14 --------------
+
+
+Artist: Sonata Arctica
+
+Song: Fade to Black
+
+Album: Takatalvi
+
+Preview URL: null
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 15 --------------
+
+
+Artist: Metallica
+
+Song: Fade To Black (Live at The Hollywood Palladium, Los Angeles, CA – March 10th, 1985)
+
+Album: Ride The Lightning (Deluxe Remaster)
+
+Preview URL: https://p.scdn.co/mp3-preview/26e92bd2eb48005a259c74276a7195b10add35de?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 16 --------------
+
+
+Artist: Disturbed
+
+Song: Fade to Black - Live
+
+Album: Music as a Weapon II
+
+Preview URL: https://p.scdn.co/mp3-preview/6350c9af74f8091a47a73e97ff04be76f929502f?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 17 --------------
+
+
+Artist: Metallica
+
+Song: Fade to Black (Live at the Aragon Ballroom, Chicago, IL - May 25th, 1986)
+
+Album: Master of Puppets (Remastered Deluxe Box Set)
+
+Preview URL: https://p.scdn.co/mp3-preview/d7f26831efe535a2834622318cb740da08d0ee20?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 18 --------------
+
+
+Artist: 8 Graves
+
+Song: Fade to Black
+
+Album: Mixtape
+
+Preview URL: https://p.scdn.co/mp3-preview/2de2aa3f1efa8e1fa8ef76b7a59f65c3de374b69?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 19 --------------
+
+
+Artist: KUURO
+
+Song: Fade to Black
+
+Album: Fade to Black
+
+Preview URL: https://p.scdn.co/mp3-preview/a796adcb8a8df7ecfa15090b36d2de82602ffcee?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+-INPUT-
+
+concert-this, Insomnium
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: 0Feb 21st 2020
+
+In the city of: Turku, 
+
+At: Logomo Kitchen
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: 2Mar 12th 2020
+
+In the city of: Philadelphia, PA
+
+At: The Fillmore Philadelphia
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: 3Mar 13th 2020
+
+In the city of: New York, NY
+
+At: Gramercy Theatre
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: 1Feb 22nd 2020
+
+In the city of: Lahti, 
+
+At: Mössö
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: 5Mar 15th 2020
+
+In the city of: Montreal, 
+
+At: Foufounes Électriques
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: 4Mar 14th 2020
+
+In the city of: Worcester, MA
+
+At: Palladium
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: 7Mar 17th 2020
+
+In the city of: Québec, 
+
+At: Le D'Auteuil
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: 8Mar 18th 2020
+
+In the city of: Toronto, 
+
+At: Mod Club Theatre
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: 9Mar 20th 2020
+
+In the city of: Newport, KY
+
+At: Thompson House
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: 10Mar 21st 2020
+
+In the city of: Milwaukee, WI
+
+At: Club Garibaldi
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: 11Mar 22nd 2020
+
+In the city of: Joliet, IL
+
+At: The Forge
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: 12Mar 23rd 2020
+
+In the city of: Saint Paul, MN
+
+At: Amsterdam Bar and Hall
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: 6Mar 16th 2020
+
+In the city of: Sherbrooke, 
+
+At: Bar Le Magog
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: 13Mar 24th 2020
+
+In the city of: Winnipeg, 
+
+At: The Park Theatre
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: 14Mar 25th 2020
+
+In the city of: Regina, 
+
+At: The Exchange
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: 15Mar 26th 2020
+
+In the city of: Edmonton, 
+
+At: The Starlite Room
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: 16Mar 27th 2020
+
+In the city of: Calgary, 
+
+At: Dickens
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: 17Mar 28th 2020
+
+In the city of: Vancouver, 
+
+At: Rickshaw Theatre
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: 18Mar 29th 2020
+
+In the city of: Seattle, WA
+
+At: El Corazón
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: 19Mar 31st 2020
+
+In the city of: Oakland, CA
+
+At: Oakland Metro
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: 20Apr 1st 2020
+
+In the city of: West Hollywood, CA
+
+At: Whisky A Go Go
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: 21Apr 2nd 2020
+
+In the city of: San Diego, CA
+
+At: Brick By Brick
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: 22Apr 3rd 2020
+
+In the city of: Santa Ana, CA
+
+At: Malone's
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: 23Apr 4th 2020
+
+In the city of: Mesa, AZ
+
+At: Club Red
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: 24Apr 5th 2020
+
+In the city of: Las Vegas, NV
+
+At: Backstage Bar & Billiards
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: 25Apr 6th 2020
+
+In the city of: Salt Lake City, UT
+
+At: Liquid joe's
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: 26Apr 7th 2020
+
+In the city of: Denver, CO
+
+At: Herman's Hideaway
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: 27Apr 10th 2020
+
+In the city of: Austin, TX
+
+At: Come and Take It Live
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: 28Apr 11th 2020
+
+In the city of: Houston, TX
+
+At: Scout Bar
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: 29Apr 13th 2020
+
+In the city of: Tampa, FL
+
+At: Crowbar
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: 30Apr 14th 2020
+
+In the city of: Margate, FL
+
+At: O'Malley's Sports Bar
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: 31Apr 15th 2020
+
+In the city of: Orlando, FL
+
+At: Soundbar Orlando
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: 32Apr 16th 2020
+
+In the city of: Atlanta, GA
+
+At: The Masquerade
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: 34Apr 18th 2020
+
+In the city of: Baltimore, MD
+
+At: Fish Head Cantina
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: 35Apr 30th 2020
+
+In the city of: Kopervik, 
+
+At: Karmøygeddon Metal Festival
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: 33Apr 17th 2020
+
+In the city of: Chapel Hill, NC
+
+At: Local 506
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: 37May 2nd 2020
+
+In the city of: Trondheim, 
+
+At: Byscenen
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: 36May 1st 2020
+
+In the city of: Oslo, 
+
+At: Vulkan Arena
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: 38May 3rd 2020
+
+In the city of: Stockholm, 
+
+At: Fryshuset Klubben
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: 39May 4th 2020
+
+In the city of: Göteborg, 
+
+At: Pustervik
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: 40May 5th 2020
+
+In the city of: Copenhagen, 
+
+At: Pumpehuset
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: 41May 31st 2020
+
+In the city of: Gelsenkirchen, 
+
+At: Rock Hard Parkplatz
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: 42Jun 26th 2020
+
+In the city of: Helsinki, 
+
+At: Suvilahti
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: 43Jun 27th 2020
+
+In the city of: Seinäjoki, 
+
+At: Provinssirock
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: 44Jul 2nd 2020
+
+In the city of: Santa Coloma De Gramenet, 
+
+At: Rock Fest Barcelona
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: 46Jul 11th 2020
+
+In the city of: Honkilahti, 
+
+At: Lomakeskus Sieravuori
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: 45Jul 4th 2020
+
+In the city of: Ballenstedt, 
+
+At: Rockharz
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: 47Jul 17th 2020
+
+In the city of: Laukaa, 
+
+At: John Smith Rock Festival
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: 48Aug 13th 2020
+
+In the city of: Saint-nolff, 
+
+At: Motocultor Festival 2020
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: 49Aug 14th 2020
+
+In the city of: Kotka, 
+
+At: Dark River Festival
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: 50Aug 16th 2020
+
+In the city of: Saint-nolff, 
+
+At: MOTOCULTOR Festival
+
+-----------------------------
+
+-INPUT-
+
+concert-this, 
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: #0 Feb 21st 2020
+
+In the city of: Turku, 
+
+At: Logomo Kitchen
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: #3 Mar 13th 2020
+
+In the city of: New York, NY
+
+At: Gramercy Theatre
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: #2 Mar 12th 2020
+
+In the city of: Philadelphia, PA
+
+At: The Fillmore Philadelphia
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: #1 Feb 22nd 2020
+
+In the city of: Lahti, 
+
+At: Mössö
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: #4 Mar 14th 2020
+
+In the city of: Worcester, MA
+
+At: Palladium
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: #5 Mar 15th 2020
+
+In the city of: Montreal, 
+
+At: Foufounes Électriques
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: #6 Mar 16th 2020
+
+In the city of: Sherbrooke, 
+
+At: Bar Le Magog
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: #7 Mar 17th 2020
+
+In the city of: Québec, 
+
+At: Le D'Auteuil
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: #8 Mar 18th 2020
+
+In the city of: Toronto, 
+
+At: Mod Club Theatre
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: #9 Mar 20th 2020
+
+In the city of: Newport, KY
+
+At: Thompson House
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: #10 Mar 21st 2020
+
+In the city of: Milwaukee, WI
+
+At: Club Garibaldi
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: #11 Mar 22nd 2020
+
+In the city of: Joliet, IL
+
+At: The Forge
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: #12 Mar 23rd 2020
+
+In the city of: Saint Paul, MN
+
+At: Amsterdam Bar and Hall
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: #13 Mar 24th 2020
+
+In the city of: Winnipeg, 
+
+At: The Park Theatre
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: #14 Mar 25th 2020
+
+In the city of: Regina, 
+
+At: The Exchange
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: #16 Mar 27th 2020
+
+In the city of: Calgary, 
+
+At: Dickens
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: #15 Mar 26th 2020
+
+In the city of: Edmonton, 
+
+At: The Starlite Room
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: #17 Mar 28th 2020
+
+In the city of: Vancouver, 
+
+At: Rickshaw Theatre
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: #18 Mar 29th 2020
+
+In the city of: Seattle, WA
+
+At: El Corazón
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: #19 Mar 31st 2020
+
+In the city of: Oakland, CA
+
+At: Oakland Metro
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: #20 Apr 1st 2020
+
+In the city of: West Hollywood, CA
+
+At: Whisky A Go Go
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: #21 Apr 2nd 2020
+
+In the city of: San Diego, CA
+
+At: Brick By Brick
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: #22 Apr 3rd 2020
+
+In the city of: Santa Ana, CA
+
+At: Malone's
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: #24 Apr 5th 2020
+
+In the city of: Las Vegas, NV
+
+At: Backstage Bar & Billiards
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: #23 Apr 4th 2020
+
+In the city of: Mesa, AZ
+
+At: Club Red
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: #25 Apr 6th 2020
+
+In the city of: Salt Lake City, UT
+
+At: Liquid joe's
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: #26 Apr 7th 2020
+
+In the city of: Denver, CO
+
+At: Herman's Hideaway
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: #27 Apr 10th 2020
+
+In the city of: Austin, TX
+
+At: Come and Take It Live
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: #28 Apr 11th 2020
+
+In the city of: Houston, TX
+
+At: Scout Bar
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: #29 Apr 13th 2020
+
+In the city of: Tampa, FL
+
+At: Crowbar
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: #30 Apr 14th 2020
+
+In the city of: Margate, FL
+
+At: O'Malley's Sports Bar
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: #31 Apr 15th 2020
+
+In the city of: Orlando, FL
+
+At: Soundbar Orlando
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: #33 Apr 17th 2020
+
+In the city of: Chapel Hill, NC
+
+At: Local 506
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: #34 Apr 18th 2020
+
+In the city of: Baltimore, MD
+
+At: Fish Head Cantina
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: #32 Apr 16th 2020
+
+In the city of: Atlanta, GA
+
+At: The Masquerade
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: #36 May 1st 2020
+
+In the city of: Oslo, 
+
+At: Vulkan Arena
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: #35 Apr 30th 2020
+
+In the city of: Kopervik, 
+
+At: Karmøygeddon Metal Festival
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: #37 May 2nd 2020
+
+In the city of: Trondheim, 
+
+At: Byscenen
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: #38 May 3rd 2020
+
+In the city of: Stockholm, 
+
+At: Fryshuset Klubben
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: #39 May 4th 2020
+
+In the city of: Göteborg, 
+
+At: Pustervik
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: #40 May 5th 2020
+
+In the city of: Copenhagen, 
+
+At: Pumpehuset
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: #42 Jun 26th 2020
+
+In the city of: Helsinki, 
+
+At: Suvilahti
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: #41 May 31st 2020
+
+In the city of: Gelsenkirchen, 
+
+At: Rock Hard Parkplatz
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: #43 Jun 27th 2020
+
+In the city of: Seinäjoki, 
+
+At: Provinssirock
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: #44 Jul 2nd 2020
+
+In the city of: Santa Coloma De Gramenet, 
+
+At: Rock Fest Barcelona
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: #45 Jul 4th 2020
+
+In the city of: Ballenstedt, 
+
+At: Rockharz
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: #46 Jul 11th 2020
+
+In the city of: Honkilahti, 
+
+At: Lomakeskus Sieravuori
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: #47 Jul 17th 2020
+
+In the city of: Laukaa, 
+
+At: John Smith Rock Festival
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: #48 Aug 13th 2020
+
+In the city of: Saint-nolff, 
+
+At: Motocultor Festival 2020
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: #49 Aug 14th 2020
+
+In the city of: Kotka, 
+
+At: Dark River Festival
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show: #50 Aug 16th 2020
+
+In the city of: Saint-nolff, 
+
+At: MOTOCULTOR Festival
+
+-----------------------------
+
+-INPUT-
+
+concert-this, greenday
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #0 Mar 8th 2020
+
+In the city of: Singapore, 
+
+At: Singapore Indoor Stadium
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #2 Mar 14th 2020
+
+In the city of: Manila, 
+
+At: Mall of Asia Arena
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #3 Mar 17th 2020
+
+In the city of: Taipei, 
+
+At: Taipei Arena
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #1 Mar 11th 2020
+
+In the city of: Bangkok, 
+
+At: IMPACT Arena
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #4 Mar 20th 2020
+
+In the city of: Hong Kong, 
+
+At: World Expo
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #6 Mar 25th 2020
+
+In the city of: Higashi-osaka, 
+
+At: Intex
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #5 Mar 22nd 2020
+
+In the city of: Jamsil, 
+
+At: Jamsil Indoor Gym
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #7 Mar 27th 2020
+
+In the city of: Tokyo, 
+
+At: Tokyo Messe
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #9 May 24th 2020
+
+In the city of: Moscow, 
+
+At: Spartak Stadium
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #8 Mar 28th 2020
+
+In the city of: Chiba-city, Chiba
+
+At: Makuhari Messe
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #10 May 27th 2020
+
+In the city of: Helsinki, 
+
+At: Suvilahti
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #11 May 29th 2020
+
+In the city of: Stockholm, 
+
+At: Tele2 Arena
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #12 May 31st 2020
+
+In the city of: Ålesund, 
+
+At: Color Line Stadion
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #13 Jun 3rd 2020
+
+In the city of: Berlin, 
+
+At: Parkbühne Wuhlheide
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #14 Jun 5th 2020
+
+In the city of: Nürnberg, 
+
+At: Rock Am Ring/Rock Im Park (June 5-7, Single Day TBA)
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #15 Jun 10th 2020
+
+In the city of: Milan, 
+
+At: Ippodromo San Siro
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #16 Jun 11th 2020
+
+In the city of: Firenze, 
+
+At: Firenze Rocks
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #17 Jun 13th 2020
+
+In the city of: Paris, 
+
+At: Hella Mega Tour w/Green Day, Fall Out Boy, Weezer + Amyl and the Sniffers
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #18 Jun 14th 2020
+
+In the city of: Groningen, 
+
+At: Hella Mega Tour w/Green Day, Fall Out Boy, Weezer + Amyl and the Sniffers
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #19 Jun 17th 2020
+
+In the city of: Wilrijk, 
+
+At: Hella Mega Tour w/Green Day, Fall Out Boy, Weezer + Amyl and the Sniffers
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #21 Jun 21st 2020
+
+In the city of: Wien, 
+
+At: Hella Mega Tour w/Green Day, Fall Out Boy, Weezer + Amyl and the Sniffers
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #20 Jun 19th 2020
+
+In the city of: Hradec Kralove, 
+
+At: Rock For People
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #22 Jun 24th 2020
+
+In the city of: Glasgow, 
+
+At: Hella Mega Tour w/Green Day, Fall Out Boy, Weezer + Amyl and the Sniffers
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #23 Jun 26th 2020
+
+In the city of: London, 
+
+At: Hella Mega Tour w/Green Day, Fall Out Boy, Weezer + Amyl and the Sniffers
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #24 Jun 27th 2020
+
+In the city of: Huddersfield, 
+
+At: Hella Mega Tour w/Green Day, Fall Out Boy, Weezer + Amyl and the Sniffers
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #25 Jun 29th 2020
+
+In the city of: Dublin, 
+
+At: Hella Mega Tour w/Green Day, Fall Out Boy, Weezer + Amyl and the Sniffers
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #26 Jul 17th 2020
+
+In the city of: Seattle, WA
+
+At: Hella Mega Tour w/Green Day, Fall Out Boy, Weezer + The Interrupters
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #27 Jul 21st 2020
+
+In the city of: San Francisco, CA
+
+At: Hella Mega Tour w/Green Day, Fall Out Boy, Weezer + The Interrupters
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #28 Jul 24th 2020
+
+In the city of: San Diego, CA
+
+At: Hella Mega Tour w/Green Day, Fall Out Boy, Weezer + The Interrupters
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #29 Jul 25th 2020
+
+In the city of: Los Angeles, CA
+
+At: Hella Mega Tour w/Green Day, Fall Out Boy, Weezer + The Interrupters
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #30 Jul 28th 2020
+
+In the city of: Commerce City, CO
+
+At: Hella Mega Tour w/Green Day, Fall Out Boy, Weezer + The Interrupters
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #33 Aug 5th 2020
+
+In the city of: Miami Gardens, FL
+
+At: Hella Mega Tour w/Green Day, Fall Out Boy, Weezer + The Interrupters
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #32 Aug 1st 2020
+
+In the city of: Houston, TX
+
+At: Hella Mega Tour w/Green Day, Fall Out Boy, Weezer + The Interrupters
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #31 Jul 31st 2020
+
+In the city of: Dallas, TX
+
+At: Hella Mega Tour w/Green Day, Fall Out Boy, Weezer + The Interrupters
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #35 Aug 8th 2020
+
+In the city of: Atlanta, GA
+
+At: Hella Mega Tour w/Green Day, Fall Out Boy, Weezer + The Interrupters
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #34 Aug 6th 2020
+
+In the city of: Jacksonville, FL
+
+At: Hella Mega Tour w/Green Day, Fall Out Boy, Weezer + The Interrupters
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #36 Aug 11th 2020
+
+In the city of: Minneapolis, MN
+
+At: Hella Mega Tour w/Green Day, Fall Out Boy, Weezer + The Interrupters
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #37 Aug 13th 2020
+
+In the city of: Chicago, IL
+
+At: Hella Mega Tour w/Green Day, Fall Out Boy, Weezer + The Interrupters
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #38 Aug 15th 2020
+
+In the city of: Pittsburgh, PA
+
+At: Hella Mega Tour w/Green Day, Fall Out Boy, Weezer + The Interrupters
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #39 Aug 16th 2020
+
+In the city of: Hershey, PA
+
+At: Hella Mega Tour w/Green Day, Fall Out Boy, Weezer + The Interrupters
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #40 Aug 19th 2020
+
+In the city of: Detroit, MI
+
+At: Hella Mega Tour w/Green Day, Fall Out Boy, Weezer + The Interrupters
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #41 Aug 21st 2020
+
+In the city of: Washington, DC
+
+At: Hella Mega Tour w/Green Day, Fall Out Boy, Weezer + The Interrupters
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #42 Aug 22nd 2020
+
+In the city of: Flushing, NY
+
+At: Hella Mega Tour w/Green Day, Fall Out Boy, Weezer + The Interrupters
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #43 Aug 24th 2020
+
+In the city of: Toronto, 
+
+At: Hella Mega Tour w/Green Day, Fall Out Boy, Weezer + The Interrupters
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #44 Aug 27th 2020
+
+In the city of: Boston, MA
+
+At: Hella Mega Tour w/Green Day, Fall Out Boy, Weezer + The Interrupters
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #45 Aug 29th 2020
+
+In the city of: Philadelphia, PA
+
+At: Hella Mega Tour w/Green Day, Fall Out Boy, Weezer + The Interrupters
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #46 Nov 8th 2020
+
+In the city of: Perth, 
+
+At: HBF Park
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #47 Nov 11th 2020
+
+In the city of: Docklands, 
+
+At: Docklands Stadium
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #48 Nov 14th 2020
+
+In the city of: Parramatta, 
+
+At: Bankwest Stadium
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #49 Nov 17th 2020
+
+In the city of: Milton, 
+
+At: Suncorp Stadium
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #50 Nov 20th 2020
+
+In the city of: Dunedin, 
+
+At: Forsyth Barr Stadium
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Green Day
+
+Upcoming show: #51 Nov 22nd 2020
+
+In the city of: Auckland, 
+
+At: Mt Smart Stadium
+
+-----------------------------
+
+-INPUT-
+
+command-list, 
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show #2: Mar 12th 2020
+
+In the city of: Philadelphia, PA
+
+At: The Fillmore Philadelphia
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show #0: Feb 21st 2020
+
+In the city of: Turku, 
+
+At: Logomo Kitchen
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show #1: Feb 22nd 2020
+
+In the city of: Lahti, 
+
+At: Mössö
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show #3: Mar 13th 2020
+
+In the city of: New York, NY
+
+At: Gramercy Theatre
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show #5: Mar 15th 2020
+
+In the city of: Montreal, 
+
+At: Foufounes Électriques
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show #7: Mar 17th 2020
+
+In the city of: Québec, 
+
+At: Le D'Auteuil
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show #6: Mar 16th 2020
+
+In the city of: Sherbrooke, 
+
+At: Bar Le Magog
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show #4: Mar 14th 2020
+
+In the city of: Worcester, MA
+
+At: Palladium
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show #8: Mar 18th 2020
+
+In the city of: Toronto, 
+
+At: Mod Club Theatre
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show #9: Mar 20th 2020
+
+In the city of: Newport, KY
+
+At: Thompson House
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+!!! MATCH FOUND !!!
+
+
+Band: Insomnium
+
+Upcoming show #10: Mar 21st 2020
+
+In the city of: Milwaukee, WI
+
+At: Club Garibaldi
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show #11: Mar 22nd 2020
+
+In the city of: Joliet, IL
+
+At: The Forge
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show #12: Mar 23rd 2020
+
+In the city of: Saint Paul, MN
+
+At: Amsterdam Bar and Hall
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show #13: Mar 24th 2020
+
+In the city of: Winnipeg, 
+
+At: The Park Theatre
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show #14: Mar 25th 2020
+
+In the city of: Regina, 
+
+At: The Exchange
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show #15: Mar 26th 2020
+
+In the city of: Edmonton, 
+
+At: The Starlite Room
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show #16: Mar 27th 2020
+
+In the city of: Calgary, 
+
+At: Dickens
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show #17: Mar 28th 2020
+
+In the city of: Vancouver, 
+
+At: Rickshaw Theatre
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show #18: Mar 29th 2020
+
+In the city of: Seattle, WA
+
+At: El Corazón
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show #19: Mar 31st 2020
+
+In the city of: Oakland, CA
+
+At: Oakland Metro
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show #20: Apr 1st 2020
+
+In the city of: West Hollywood, CA
+
+At: Whisky A Go Go
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show #21: Apr 2nd 2020
+
+In the city of: San Diego, CA
+
+At: Brick By Brick
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show #22: Apr 3rd 2020
+
+In the city of: Santa Ana, CA
+
+At: Malone's
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show #23: Apr 4th 2020
+
+In the city of: Mesa, AZ
+
+At: Club Red
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show #24: Apr 5th 2020
+
+In the city of: Las Vegas, NV
+
+At: Backstage Bar & Billiards
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show #25: Apr 6th 2020
+
+In the city of: Salt Lake City, UT
+
+At: Liquid joe's
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show #26: Apr 7th 2020
+
+In the city of: Denver, CO
+
+At: Herman's Hideaway
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show #27: Apr 10th 2020
+
+In the city of: Austin, TX
+
+At: Come and Take It Live
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show #28: Apr 11th 2020
+
+In the city of: Houston, TX
+
+At: Scout Bar
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show #29: Apr 13th 2020
+
+In the city of: Tampa, FL
+
+At: Crowbar
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show #30: Apr 14th 2020
+
+In the city of: Margate, FL
+
+At: O'Malley's Sports Bar
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show #32: Apr 16th 2020
+
+In the city of: Atlanta, GA
+
+At: The Masquerade
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show #31: Apr 15th 2020
+
+In the city of: Orlando, FL
+
+At: Soundbar Orlando
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show #33: Apr 17th 2020
+
+In the city of: Chapel Hill, NC
+
+At: Local 506
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show #34: Apr 18th 2020
+
+In the city of: Baltimore, MD
+
+At: Fish Head Cantina
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show #35: Apr 30th 2020
+
+In the city of: Kopervik, 
+
+At: Karmøygeddon Metal Festival
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show #37: May 2nd 2020
+
+In the city of: Trondheim, 
+
+At: Byscenen
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show #36: May 1st 2020
+
+In the city of: Oslo, 
+
+At: Vulkan Arena
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show #38: May 3rd 2020
+
+In the city of: Stockholm, 
+
+At: Fryshuset Klubben
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show #40: May 5th 2020
+
+In the city of: Copenhagen, 
+
+At: Pumpehuset
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show #39: May 4th 2020
+
+In the city of: Göteborg, 
+
+At: Pustervik
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show #41: May 31st 2020
+
+In the city of: Gelsenkirchen, 
+
+At: Rock Hard Parkplatz
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show #43: Jun 27th 2020
+
+In the city of: Seinäjoki, 
+
+At: Provinssirock
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show #44: Jul 2nd 2020
+
+In the city of: Santa Coloma De Gramenet, 
+
+At: Rock Fest Barcelona
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show #42: Jun 26th 2020
+
+In the city of: Helsinki, 
+
+At: Suvilahti
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show #45: Jul 4th 2020
+
+In the city of: Ballenstedt, 
+
+At: Rockharz
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show #46: Jul 11th 2020
+
+In the city of: Honkilahti, 
+
+At: Lomakeskus Sieravuori
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show #47: Jul 17th 2020
+
+In the city of: Laukaa, 
+
+At: John Smith Rock Festival
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show #48: Aug 13th 2020
+
+In the city of: Saint-nolff, 
+
+At: Motocultor Festival 2020
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show #49: Aug 14th 2020
+
+In the city of: Kotka, 
+
+At: Dark River Festival
+
+-----------------------------
+
+
+-OUTPUT- 
+-----------------------------
+
+
+Band: Insomnium
+
+Upcoming show #50: Aug 16th 2020
+
+In the city of: Saint-nolff, 
+
+At: MOTOCULTOR Festival
+
+-----------------------------
+
+
+-OUTPUT- 
+------------- Match: 1 --------------
+
+
+Artist: Born Ruffians
+
+Song: Fade to Black
+
+Album: Uncle, Duke & The Chief
+
+Preview URL: https://p.scdn.co/mp3-preview/c034f2565cacd08a1c36f76232afb44ac8c5d042?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 0 --------------
+
+
+Artist: Metallica
+
+Song: Fade To Black (Remastered)
+
+Album: Ride The Lightning (Deluxe Remaster)
+
+Preview URL: https://p.scdn.co/mp3-preview/1ed11e779717e87b588b0a47c0e3a2b5a7717bfe?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 2 --------------
+
+
+Artist: BeauDamian
+
+Song: Fade To Black
+
+Album: Fade To Black
+
+Preview URL: https://p.scdn.co/mp3-preview/c73c80d0a14959cf120c716ca102fb9a7657f445?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 3 --------------
+
+
+Artist: Apocalyptica
+
+Song: Fade To Black
+
+Album: Inquisition Symphony
+
+Preview URL: null
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 4 --------------
+
+
+Artist: Tres Hanley-Millman
+
+Song: Fade to Black
+
+Album: Fade to Black
+
+Preview URL: https://p.scdn.co/mp3-preview/27b042a7a8c4eeb19ea60392eab98dc230636bee?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 5 --------------
+
+
+Artist: Dire Straits
+
+Song: Fade to Black
+
+Album: On Every Street (Remastered Version)
+
+Preview URL: https://p.scdn.co/mp3-preview/110181cecffbeb095aa7bead1893fc3b75c83753?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 7 --------------
+
+
+Artist: Mark Diamond
+
+Song: Fade to Black (Stripped) [Lost Recording #2]
+
+Album: War (The Lost Recordings)
+
+Preview URL: https://p.scdn.co/mp3-preview/44573b93384f05ca248af01f0784b404625ecf88?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 6 --------------
+
+
+Artist: Metallica
+
+Song: Fade to Black - Live at Rasputin Music, Berkeley, CA - April 16th, 2016
+
+Album: Hardwired…To Self-Destruct (Deluxe)
+
+Preview URL: https://p.scdn.co/mp3-preview/9359c66a19907679f4e06df0c2046f7d3a34d246?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 9 --------------
+
+
+Artist: Metallica
+
+Song: Fade to Black (Live - Seattle '89)
+
+Album: ...And Justice for All (Remastered Deluxe Box Set)
+
+Preview URL: https://p.scdn.co/mp3-preview/256bc4af7deba33661ede66317891ef3ba7a17a1?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 8 --------------
+
+
+Artist: Metallica
+
+Song: Fade To Black (Live in Mexico City)
+
+Album: Live S**t: Binge & Purge
+
+Preview URL: https://p.scdn.co/mp3-preview/d16075b5d4eef1d62001f5754a68ab521d2ae310?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 10 --------------
+
+
+Artist: Northbound
+
+Song: Fade to Black
+
+Album: Fade To Black
+
+Preview URL: https://p.scdn.co/mp3-preview/2fcb334122a0656f1f09598608d678d83a3364ec?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 11 --------------
+
+
+Artist: Rockabye Baby!
+
+Song: Fade to Black
+
+Album: Lullaby Renditions of Metallica
+
+Preview URL: https://p.scdn.co/mp3-preview/ed7779be8c7e9e5cb7a07918d2ffbd58be9917e3?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 12 --------------
+
+
+Artist: Dire Straits
+
+Song: Fade To Black
+
+Album: On Every Street
+
+Preview URL: null
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 13 --------------
+
+
+Artist: Relax Tones
+
+Song: Fade to Black
+
+Album: Mysterious Dreamer
+
+Preview URL: https://p.scdn.co/mp3-preview/7da71da676ca21a9a27d790d3e1f5038bb121908?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 14 --------------
+
+
+Artist: Sonata Arctica
+
+Song: Fade to Black
+
+Album: Takatalvi
+
+Preview URL: null
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 15 --------------
+
+
+Artist: Metallica
+
+Song: Fade To Black (Live at The Hollywood Palladium, Los Angeles, CA – March 10th, 1985)
+
+Album: Ride The Lightning (Deluxe Remaster)
+
+Preview URL: https://p.scdn.co/mp3-preview/26e92bd2eb48005a259c74276a7195b10add35de?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 16 --------------
+
+
+Artist: Disturbed
+
+Song: Fade to Black - Live
+
+Album: Music as a Weapon II
+
+Preview URL: https://p.scdn.co/mp3-preview/6350c9af74f8091a47a73e97ff04be76f929502f?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 18 --------------
+
+
+Artist: 8 Graves
+
+Song: Fade to Black
+
+Album: Mixtape
+
+Preview URL: https://p.scdn.co/mp3-preview/2de2aa3f1efa8e1fa8ef76b7a59f65c3de374b69?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 17 --------------
+
+
+Artist: Metallica
+
+Song: Fade to Black (Live at the Aragon Ballroom, Chicago, IL - May 25th, 1986)
+
+Album: Master of Puppets (Remastered Deluxe Box Set)
+
+Preview URL: https://p.scdn.co/mp3-preview/d7f26831efe535a2834622318cb740da08d0ee20?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+------------- Match: 19 --------------
+
+
+Artist: KUURO
+
+Song: Fade to Black
+
+Album: Fade to Black
+
+Preview URL: https://p.scdn.co/mp3-preview/a796adcb8a8df7ecfa15090b36d2de82602ffcee?cid=b91d6f08fadb436f85091e4db307f3db
+
+--------------------------------------
+
+
+
+-OUTPUT- 
+-----------------------------
+
+Movie: The Matrix
+
+Release date: 31 Mar 1999
+
+IMDB-rating: 8.7
+
+Rotten Tomatoes rating: 88%
+
+Country produced in: USA
+
+Language: English
+
+Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+
+Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
+
+-----------------------------
