@@ -453,7 +453,9 @@ function movieThis() {
 // Prompted inquirer function for 'do-what-it-says' via 'command-list' command.
 function doThis() {
     doThisCommand();
-
+    let time = setTimeout(() => {
+      start(time)  
+    }, 1000);
 }; // END OF "doThis" FUNCTION.
 
 /* IF RUNNING "node liri.js" with arguments use THESE command functions with run() switch statements*/

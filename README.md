@@ -97,3 +97,19 @@ var spotify = new Spotify(keys.spotify);
 'do-what-it-says'
 
 ## What each command should do ##
+
+### concert-this ###
+
+#### Purpose ####
+
+-'contact-this' objective is to search for a band/artist via "Bands in Town API", And return the data via console.log.
+
+-Example of command in terminal: 
+
+
+`$ node liri.js concert-this <band/artist>`
+
+![concert-this]("./images/concert-this.PNG")
+
+
+
