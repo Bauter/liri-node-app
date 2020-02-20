@@ -142,3 +142,28 @@ Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
 
 -----------------------------
 
+
+-INPUT-
+
+movie-this, The matrix
+
+-OUTPUT- 
+-----------------------------
+
+Movie: The Matrix
+
+Release date: 31 Mar 1999
+
+IMDB-rating: 8.7
+
+Rotten Tomatoes rating: 88%
+
+Country produced in: USA
+
+Language: English
+
+Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+
+Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
+
+-----------------------------

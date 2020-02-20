@@ -674,6 +674,39 @@ function concertThis() {
 
 -For more insight into inquirer, visit ("https://www.npmjs.com/package/inquirer")
 
+### Example of log.txt ###
+
+-The file 'log.txt' should log all inputs and outputs.
+
+- Example of log:
+```
+-INPUT-
+
+movie-this, The matrix
+
+-OUTPUT- 
+-----------------------------
+
+Movie: The Matrix
+
+Release date: 31 Mar 1999
+
+IMDB-rating: 8.7
+
+Rotten Tomatoes rating: 88%
+
+Country produced in: USA
+
+Language: English
+
+Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+
+Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
+
+-----------------------------
+```
+
+
 ## Guidelines for Collaboration ##
 
 -As I am still new to coding, and my initial projects will be used to create a portfolio to show to potential employers, i ask that no modifications are made at this time.
