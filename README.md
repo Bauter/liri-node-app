@@ -454,7 +454,7 @@ function spotifyThisCommand(searchInput) {
 
 - Example of command in terminal:
 
-![command-list-mainMenu](images/comand-list-mainMenu.PNG)
+![command-list-mainMenu](images/command-list-mainMenu.PNG)
 
 #### Examples of command-list running w/ inquirer ####
 
