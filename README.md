@@ -109,7 +109,7 @@ var spotify = new Spotify(keys.spotify);
 
 `$ node liri.js concert-this <band/artist>`
 
-![concert-this]("./images/concert-this.PNG")
+![concert-this]("images/concert-this.PNG")
 
 
 
